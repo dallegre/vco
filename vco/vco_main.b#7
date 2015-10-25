@@ -23,13 +23,13 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
@@ -37,7 +37,7 @@
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -87,7 +87,7 @@
 <text x="21.59" y="27.94" size="1.778" layer="21" rot="R270">expmod</text>
 <text x="96.52" y="105.41" size="1.778" layer="21" rot="R270">3.75 inches is about 16hp</text>
 <text x="40.64" y="12.7" size="1.778" layer="21" rot="R270">linmod</text>
-<text x="46.99" y="104.14" size="2.54" layer="21" rot="MR0" align="center">Fixed Waveform Oscillator</text>
+<text x="46.99" y="104.14" size="2.54" layer="22" rot="MR0" align="center">Fixed Waveform Oscillator</text>
 <text x="40.64" y="26.67" size="1.778" layer="21" rot="R270">sync</text>
 <text x="16.51" y="96.52" size="1.778" layer="21" rot="R270">tempco</text>
 <wire x1="0" y1="107.95" x2="0" y2="0" width="0" layer="20"/>
@@ -694,87 +694,87 @@ design rules under a new name.</description>
 <attribute name="MPN" value="OPA4130UA" x="31.75" y="74.93" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="TEXAS INSTRUMENTS" x="31.75" y="74.93" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="1648707" x="31.75" y="74.93" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="26.0985" y="76.962" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
-<attribute name="VALUE" x="37.5285" y="71.12" size="1.27" layer="21" font="vector" ratio="15" rot="R90"/>
+<attribute name="NAME" x="26.0985" y="76.962" size="1.27" layer="21" ratio="15" rot="R270"/>
+<attribute name="VALUE" x="37.5285" y="71.12" size="1.27" layer="21" ratio="15" rot="R90"/>
 </element>
 <element name="IC2" library="dan" package="SO16" value="LM13700M" x="11.43" y="71.12" smashed="yes">
-<attribute name="VALUE" x="17.145" y="76.454" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
-<attribute name="NAME" x="3.937" y="73.152" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
+<attribute name="VALUE" x="17.145" y="76.454" size="1.27" layer="21" ratio="15" rot="R270"/>
+<attribute name="NAME" x="3.937" y="73.152" size="1.27" layer="21" ratio="15" rot="R270"/>
 </element>
 <element name="R1" library="dan" package="R0603" value="10K" x="12.7" y="85.09" smashed="yes" rot="R90">
-<attribute name="NAME" x="12.065" y="89.535" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
-<attribute name="VALUE" x="12.065" y="83.185" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="12.065" y="89.535" size="1.27" layer="21" ratio="15" rot="R270"/>
+<attribute name="VALUE" x="12.065" y="83.185" size="1.27" layer="21" ratio="15" rot="R270"/>
 </element>
 <element name="R10" library="dan" package="R0603" value="10K" x="7.62" y="39.37" smashed="yes" rot="R270">
-<attribute name="NAME" x="6.985" y="45.085" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
-<attribute name="VALUE" x="6.985" y="37.465" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="6.985" y="45.085" size="1.27" layer="21" ratio="15" rot="R270"/>
+<attribute name="VALUE" x="6.985" y="37.465" size="1.27" layer="21" ratio="15" rot="R270"/>
 </element>
 <element name="R11" library="dan" package="R0603" value="10K" x="10.16" y="39.37" smashed="yes" rot="R90">
-<attribute name="NAME" x="9.525" y="45.085" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
-<attribute name="VALUE" x="9.525" y="37.465" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="9.525" y="45.085" size="1.27" layer="21" ratio="15" rot="R270"/>
+<attribute name="VALUE" x="9.525" y="37.465" size="1.27" layer="21" ratio="15" rot="R270"/>
 </element>
 <element name="R12" library="dan" package="R0603" value="10K" x="22.86" y="39.37" smashed="yes" rot="R90">
-<attribute name="NAME" x="22.225" y="45.085" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
-<attribute name="VALUE" x="22.225" y="37.465" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="22.225" y="45.085" size="1.27" layer="21" ratio="15" rot="R270"/>
+<attribute name="VALUE" x="22.225" y="37.465" size="1.27" layer="21" ratio="15" rot="R270"/>
 </element>
 <element name="R13" library="dan" package="R0603" value="10K" x="15.24" y="95.25" smashed="yes" rot="R90">
-<attribute name="NAME" x="14.605" y="100.965" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
-<attribute name="VALUE" x="14.605" y="93.345" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="14.605" y="100.965" size="1.27" layer="21" ratio="15" rot="R270"/>
+<attribute name="VALUE" x="14.605" y="93.345" size="1.27" layer="21" ratio="15" rot="R270"/>
 </element>
 <element name="COARSE" library="dan" package="EVUFXJ" value="10K" x="22.86" y="54.61" smashed="yes">
-<attribute name="NAME" x="29.36" y="58.88" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
-<attribute name="VALUE" x="15.9" y="52.76" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="29.36" y="58.88" size="1.27" layer="21" ratio="15" rot="R270"/>
+<attribute name="VALUE" x="15.9" y="52.76" size="1.27" layer="21" ratio="15" rot="R270"/>
 </element>
 <element name="R15" library="dan" package="R0603" value="10K" x="25.4" y="39.37" smashed="yes" rot="R270">
-<attribute name="NAME" x="24.765" y="45.085" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
-<attribute name="VALUE" x="24.765" y="37.465" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="24.765" y="45.085" size="1.27" layer="21" ratio="15" rot="R270"/>
+<attribute name="VALUE" x="24.765" y="37.465" size="1.27" layer="21" ratio="15" rot="R270"/>
 </element>
 <element name="R16" library="dan" package="R0603" value="10K" x="20.32" y="39.37" smashed="yes" rot="R90">
-<attribute name="NAME" x="19.685" y="45.085" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
-<attribute name="VALUE" x="19.685" y="37.465" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="19.685" y="45.085" size="1.27" layer="21" ratio="15" rot="R270"/>
+<attribute name="VALUE" x="19.685" y="37.465" size="1.27" layer="21" ratio="15" rot="R270"/>
 </element>
 <element name="R2" library="dan" package="R0603" value="" x="41.91" y="39.37" smashed="yes" rot="R270">
-<attribute name="NAME" x="41.275" y="43.815" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="41.275" y="43.815" size="1.27" layer="21" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="40.005" y="40.005" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R3" library="dan" package="R0603" value="10K" x="3.81" y="85.09" smashed="yes" rot="R90">
-<attribute name="NAME" x="3.175" y="89.535" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
-<attribute name="VALUE" x="3.175" y="83.185" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="3.175" y="89.535" size="1.27" layer="21" ratio="15" rot="R270"/>
+<attribute name="VALUE" x="3.175" y="83.185" size="1.27" layer="21" ratio="15" rot="R270"/>
 </element>
 <element name="R4" library="dan" package="R0603" value="10K" x="6.35" y="85.09" smashed="yes" rot="R270">
-<attribute name="NAME" x="5.715" y="89.535" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
-<attribute name="VALUE" x="5.715" y="83.185" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="5.715" y="89.535" size="1.27" layer="21" ratio="15" rot="R270"/>
+<attribute name="VALUE" x="5.715" y="83.185" size="1.27" layer="21" ratio="15" rot="R270"/>
 </element>
 <element name="R5" library="dan" package="R0603" value="5.1K" x="5.08" y="39.37" smashed="yes" rot="R90">
-<attribute name="NAME" x="4.445" y="43.815" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
-<attribute name="VALUE" x="4.445" y="37.465" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="4.445" y="43.815" size="1.27" layer="21" ratio="15" rot="R270"/>
+<attribute name="VALUE" x="4.445" y="37.465" size="1.27" layer="21" ratio="15" rot="R270"/>
 </element>
 <element name="R6" library="dan" package="R0603" value="10K" x="85.09" y="53.34" smashed="yes" rot="R270">
-<attribute name="NAME" x="84.455" y="57.785" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
-<attribute name="VALUE" x="84.455" y="51.435" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="84.455" y="57.785" size="1.27" layer="21" ratio="15" rot="R270"/>
+<attribute name="VALUE" x="84.455" y="51.435" size="1.27" layer="21" ratio="15" rot="R270"/>
 </element>
 <element name="R7" library="dan" package="R0603" value="10K" x="15.24" y="39.37" smashed="yes" rot="R270">
-<attribute name="NAME" x="14.605" y="43.815" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
-<attribute name="VALUE" x="14.605" y="37.465" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="14.605" y="43.815" size="1.27" layer="21" ratio="15" rot="R270"/>
+<attribute name="VALUE" x="14.605" y="37.465" size="1.27" layer="21" ratio="15" rot="R270"/>
 </element>
 <element name="R8" library="dan" package="R0603" value="10K" x="12.7" y="39.37" smashed="yes" rot="R90">
-<attribute name="NAME" x="13.335" y="34.925" size="1.27" layer="21" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="13.335" y="41.275" size="1.27" layer="21" font="vector" ratio="15" rot="R90"/>
+<attribute name="NAME" x="13.335" y="34.925" size="1.27" layer="21" ratio="15" rot="R90"/>
+<attribute name="VALUE" x="13.335" y="41.275" size="1.27" layer="21" ratio="15" rot="R90"/>
 </element>
 <element name="R9" library="dan" package="R0603" value="10K" x="54.61" y="85.09" smashed="yes" rot="R270">
-<attribute name="NAME" x="55.245" y="86.995" size="1.27" layer="21" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="53.975" y="83.185" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="55.245" y="86.995" size="1.27" layer="21" ratio="15" rot="R90"/>
+<attribute name="VALUE" x="53.975" y="83.185" size="1.27" layer="21" ratio="15" rot="R270"/>
 </element>
 <element name="U$1" library="dan" package="SOT457R_PHILIPS" value="BCM857" x="10.16" y="95.25" smashed="yes" rot="R180">
-<attribute name="NAME" x="6.88" y="97.72" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
-<attribute name="VALUE" x="4.52" y="98.99" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="6.88" y="97.72" size="1.27" layer="21" ratio="15" rot="R270"/>
+<attribute name="VALUE" x="4.52" y="98.99" size="1.27" layer="21" ratio="15" rot="R270"/>
 </element>
 <element name="U$2" library="dan" package="SOT457R_PHILIPS" value="BCM847" x="8.89" y="49.53" smashed="yes">
-<attribute name="NAME" x="5.61" y="50.73" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
-<attribute name="VALUE" x="10.87" y="53.27" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="5.61" y="50.73" size="1.27" layer="21" ratio="15" rot="R270"/>
+<attribute name="VALUE" x="10.87" y="53.27" size="1.27" layer="21" ratio="15" rot="R270"/>
 </element>
 <element name="C1" library="dan" package="C0603" value="1n" x="15.24" y="85.09" smashed="yes" rot="R270">
-<attribute name="NAME" x="14.605" y="89.535" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="14.605" y="89.535" size="1.27" layer="21" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="14.605" y="83.185" size="1.27" layer="21" rot="R270"/>
 </element>
 <element name="FINE" library="dan" package="EVUFXJ" value="10K" x="46.99" y="86.36" smashed="yes">
@@ -798,7 +798,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="73.025" y="37.465" size="1.27" layer="21" rot="R270"/>
 </element>
 <element name="SCALE" library="dan" package="B64Y" value="" x="58.42" y="46.99" smashed="yes" rot="MR0">
-<attribute name="NAME" x="63.627" y="50.165" size="1.27" layer="21" ratio="10" rot="MR270"/>
+<attribute name="NAME" x="63.627" y="50.165" size="1.27" layer="22" ratio="10" rot="MR270"/>
 <attribute name="VALUE" x="61.595" y="43.18" size="1.27" layer="28" ratio="10" rot="MR0"/>
 </element>
 <element name="VPEROCT" library="dan" package="PJ301BM" value="PJ301BM" x="13.97" y="8.89" smashed="yes"/>
@@ -872,7 +872,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="61.595" y="83.185" size="1.27" layer="21" rot="R270"/>
 </element>
 <element name="SAWTRIM" library="dan" package="B64Y" value="" x="33.02" y="46.99" smashed="yes" rot="MR0">
-<attribute name="NAME" x="38.227" y="51.435" size="1.27" layer="21" ratio="10" rot="MR270"/>
+<attribute name="NAME" x="38.227" y="51.435" size="1.27" layer="22" ratio="10" rot="MR270"/>
 <attribute name="VALUE" x="36.195" y="43.18" size="1.27" layer="28" ratio="10" rot="MR0"/>
 </element>
 <element name="R32" library="dan" package="R0603" value="1Meg" x="30.48" y="39.37" smashed="yes" rot="R270">
@@ -906,7 +906,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="81.915" y="51.435" size="1.27" layer="21" rot="R270"/>
 </element>
 <element name="SINTRIM" library="dan" package="B64Y" value="" x="85.09" y="46.99" smashed="yes" rot="MR0">
-<attribute name="NAME" x="90.297" y="50.165" size="1.27" layer="21" ratio="10" rot="MR270"/>
+<attribute name="NAME" x="90.297" y="50.165" size="1.27" layer="22" ratio="10" rot="MR270"/>
 <attribute name="VALUE" x="88.265" y="43.18" size="1.27" layer="28" ratio="10" rot="MR0"/>
 </element>
 <element name="R38" library="dan" package="R0603" value="10K" x="86.36" y="87.63" smashed="yes" rot="R90">
@@ -1032,20 +1032,20 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="55.245" y="104.775" size="1.27" layer="21" rot="R270"/>
 </element>
 <element name="C13" library="dan" package="C0603" value="1n" x="15.24" y="64.77" smashed="yes">
-<attribute name="NAME" x="14.605" y="65.405" size="1.27" layer="21"/>
-<attribute name="VALUE" x="14.605" y="62.865" size="1.27" layer="21"/>
+<attribute name="NAME" x="17.145" y="66.675" size="1.27" layer="21" rot="R270"/>
+<attribute name="VALUE" x="12.065" y="66.675" size="1.27" layer="21" rot="R270"/>
 </element>
 <element name="C14" library="dan" package="C0603" value="1n" x="69.85" y="68.58" smashed="yes" rot="R90">
 <attribute name="NAME" x="69.215" y="67.945" size="1.27" layer="21" rot="R90"/>
 <attribute name="VALUE" x="71.755" y="67.945" size="1.27" layer="21" rot="R90"/>
 </element>
 <element name="C15" library="dan" package="C0603" value="1n" x="24.13" y="66.04" smashed="yes" rot="R180">
-<attribute name="NAME" x="23.495" y="70.485" size="1.27" layer="21" rot="R270"/>
+<attribute name="NAME" x="20.955" y="65.405" size="1.27" layer="21" rot="R270"/>
 <attribute name="VALUE" x="23.495" y="64.135" size="1.27" layer="21" rot="R270"/>
 </element>
 <element name="C16" library="dan" package="C0603" value="1n" x="13.97" y="76.2" smashed="yes">
-<attribute name="NAME" x="10.795" y="78.105" size="1.27" layer="21" rot="R270"/>
-<attribute name="VALUE" x="15.875" y="76.835" size="1.27" layer="21" rot="R270"/>
+<attribute name="NAME" x="10.795" y="79.375" size="1.27" layer="21" rot="R270"/>
+<attribute name="VALUE" x="14.605" y="79.375" size="1.27" layer="21" rot="R270"/>
 </element>
 <element name="C17" library="dan" package="C0603" value="1n" x="44.45" y="102.87" smashed="yes" rot="R180">
 <attribute name="NAME" x="41.275" y="106.045" size="1.27" layer="21" rot="R270"/>

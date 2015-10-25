@@ -8526,6 +8526,8 @@ Source: 3M</description>
 <part name="GND35" library="dan" deviceset="GND" device=""/>
 <part name="P+9" library="dan" deviceset="+12V" device=""/>
 <part name="P-10" library="dan" deviceset="-12V" device=""/>
+<part name="P+10" library="dan" deviceset="+12V" device=""/>
+<part name="P-11" library="dan" deviceset="-12V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8709,6 +8711,8 @@ Source: 3M</description>
 <instance part="GND35" gate="1" x="-66.04" y="-60.96"/>
 <instance part="P+9" gate="1" x="-66.04" y="-38.1"/>
 <instance part="P-10" gate="1" x="-2.54" y="-38.1" rot="R180"/>
+<instance part="P+10" gate="1" x="33.02" y="96.52" rot="MR0"/>
+<instance part="P-11" gate="1" x="33.02" y="58.42" rot="MR0"/>
 </instances>
 <busses>
 </busses>
