@@ -5724,6 +5724,18 @@ Source: 3M</description>
 <pin name="D" x="5.08" y="2.54" visible="off" length="middle" direction="pas" rot="R180"/>
 <pin name="S" x="5.08" y="-2.54" visible="off" length="middle" direction="pas" rot="R180"/>
 </symbol>
+<symbol name="2N7000">
+<pin name="P$1" x="5.08" y="-2.54" length="middle" rot="R180"/>
+<pin name="P$2" x="5.08" y="2.54" length="middle" rot="R180"/>
+<pin name="P$3" x="-10.16" y="0" length="middle"/>
+<wire x1="0" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="0" y2="-5.08" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="OPA4130" prefix="IC">
@@ -8219,6 +8231,23 @@ Source: JFET-J201_Siliconix_data.pdf</description>
 <technology name="1"/>
 <technology name="2"/>
 <technology name="4"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2N7000">
+<gates>
+<gate name="G$1" symbol="2N7000" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23">
+<connects>
+<connect gate="G$1" pin="P$1" pad="2"/>
+<connect gate="G$1" pin="P$2" pad="3"/>
+<connect gate="G$1" pin="P$3" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
