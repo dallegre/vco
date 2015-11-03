@@ -11,10 +11,10 @@ UsedLibrary="/home/zod/eagle/dan.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="103 129 702 528"
+Loc="469 62 1068 461"
 State=2
 Number=0
 
 [Desktop]
-Screen="2720 768"
+Screen="1366 768"
 Window="Win_1"
