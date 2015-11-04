@@ -9350,12 +9350,6 @@ Source: 3M</description>
 <label x="248.92" y="76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="C" pin="+IN"/>
-<wire x1="149.86" y1="7.62" x2="152.4" y2="7.62" width="0.1524" layer="91"/>
-<label x="165.1" y="7.62" size="1.778" layer="95"/>
-<pinref part="R51" gate="G$1" pin="2"/>
-</segment>
-<segment>
 <pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="200.66" y1="-20.32" x2="205.74" y2="-20.32" width="0.1524" layer="91"/>
 <label x="205.74" y="-20.32" size="1.778" layer="95"/>
@@ -9364,6 +9358,11 @@ Source: 3M</description>
 <pinref part="IC1" gate="D" pin="+IN"/>
 <wire x1="165.1" y1="45.72" x2="157.48" y2="45.72" width="0.1524" layer="91"/>
 <label x="157.48" y="45.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R51" gate="G$1" pin="1"/>
+<wire x1="165.1" y1="7.62" x2="162.56" y2="7.62" width="0.1524" layer="91"/>
+<label x="165.1" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -9952,10 +9951,11 @@ Source: 3M</description>
 <junction x="127" y="63.5"/>
 </segment>
 </net>
-<net name="N$58" class="0">
+<net name="N$59" class="0">
 <segment>
-<pinref part="R51" gate="G$1" pin="1"/>
-<wire x1="165.1" y1="7.62" x2="162.56" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="IC4" gate="C" pin="+IN"/>
+<pinref part="R51" gate="G$1" pin="2"/>
+<wire x1="149.86" y1="7.62" x2="152.4" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

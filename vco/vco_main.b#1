@@ -704,12 +704,12 @@ design rules under a new name.</description>
 <attribute name="NAME" x="12.065" y="88.265" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="12.065" y="81.915" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="R10" library="dan" package="R0603" value="10K" x="11.43" y="60.96" smashed="yes" rot="R270">
+<element name="R10" library="dan" package="R0603" value="100K" x="11.43" y="60.96" smashed="yes" rot="R270">
 <attribute name="NAME" x="10.795" y="66.675" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="10.795" y="59.055" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="R11" library="dan" package="R0603" value="10K" x="13.97" y="60.96" smashed="yes" rot="R90">
-<attribute name="NAME" x="13.335" y="66.675" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="14.605" y="62.865" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="13.335" y="59.055" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="R12" library="dan" package="R0603" value="10K" x="22.86" y="39.37" smashed="yes" rot="R90">
@@ -724,11 +724,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="29.36" y="58.88" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="15.9" y="52.76" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="R15" library="dan" package="R0603" value="10K" x="25.4" y="39.37" smashed="yes" rot="R270">
+<element name="R15" library="dan" package="R0603" value="100" x="25.4" y="39.37" smashed="yes" rot="R270">
 <attribute name="NAME" x="24.765" y="45.085" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="24.765" y="37.465" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="R16" library="dan" package="R0603" value="10K" x="20.32" y="39.37" smashed="yes" rot="R90">
+<element name="R16" library="dan" package="R0603" value="100" x="20.32" y="39.37" smashed="yes" rot="R90">
 <attribute name="NAME" x="19.685" y="45.085" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="19.685" y="37.465" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
@@ -744,21 +744,21 @@ design rules under a new name.</description>
 <attribute name="NAME" x="5.715" y="89.535" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="5.715" y="83.185" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="R5" library="dan" package="R0603" value="5.1K" x="5.08" y="39.37" smashed="yes" rot="R90">
+<element name="R5" library="dan" package="R0603" value="2.4K" x="5.08" y="39.37" smashed="yes" rot="R90">
 <attribute name="NAME" x="4.445" y="43.815" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="4.445" y="37.465" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="R6" library="dan" package="R0603" value="10K" x="6.35" y="58.42" smashed="yes" rot="R270">
+<element name="R6" library="dan" package="R0603" value="20K" x="6.35" y="58.42" smashed="yes" rot="R270">
 <attribute name="NAME" x="5.715" y="62.865" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="5.715" y="56.515" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="R7" library="dan" package="R0603" value="10K" x="12.7" y="39.37" smashed="yes" rot="R270">
-<attribute name="NAME" x="12.065" y="43.815" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
-<attribute name="VALUE" x="12.065" y="37.465" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
+<element name="R7" library="dan" package="R0603" value="1K" x="12.7" y="40.64" smashed="yes" rot="R270">
+<attribute name="NAME" x="12.065" y="45.085" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
+<attribute name="VALUE" x="12.065" y="38.735" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="R8" library="dan" package="R0603" value="10K" x="12.7" y="53.34" smashed="yes" rot="R270">
-<attribute name="NAME" x="13.335" y="48.895" size="1.27" layer="21" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="13.335" y="55.245" size="1.27" layer="21" font="vector" ratio="15" rot="R90"/>
+<element name="R8" library="dan" package="R0603" value="1K" x="12.7" y="53.34" smashed="yes" rot="R270">
+<attribute name="NAME" x="12.065" y="57.785" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
+<attribute name="VALUE" x="12.065" y="51.435" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="R9" library="dan" package="R0603" value="10K" x="54.61" y="78.74" smashed="yes" rot="R270">
 <attribute name="NAME" x="55.245" y="80.645" size="1.27" layer="21" font="vector" ratio="15" rot="R90"/>
@@ -780,11 +780,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="53.49" y="91.9" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="41.3" y="83.24" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="R14" library="dan" package="R0603" value="10K" x="49.53" y="71.12" smashed="yes" rot="R270">
+<element name="R14" library="dan" package="R0603" value="100" x="49.53" y="71.12" smashed="yes" rot="R270">
 <attribute name="NAME" x="48.895" y="76.835" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="48.895" y="69.215" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="R17" library="dan" package="R0603" value="10K" x="44.45" y="71.12" smashed="yes" rot="R90">
+<element name="R17" library="dan" package="R0603" value="100" x="44.45" y="71.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="43.815" y="76.835" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="43.815" y="69.215" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
@@ -813,7 +813,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="8.255" y="62.865" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="8.255" y="56.515" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="R21" library="dan" package="R0603" value="10K" x="87.63" y="39.37" smashed="yes" rot="R90">
+<element name="R21" library="dan" package="R0603" value="DNP" x="87.63" y="39.37" smashed="yes" rot="R90">
 <attribute name="NAME" x="86.995" y="45.085" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="86.995" y="37.465" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
@@ -873,11 +873,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="38.227" y="51.435" size="1.27" layer="22" font="vector" ratio="15" rot="MR270"/>
 <attribute name="VALUE" x="36.195" y="43.18" size="1.27" layer="28" ratio="10" rot="MR0"/>
 </element>
-<element name="R32" library="dan" package="R0603" value="1Meg" x="30.48" y="39.37" smashed="yes" rot="R270">
+<element name="R32" library="dan" package="R0603" value="100" x="30.48" y="39.37" smashed="yes" rot="R270">
 <attribute name="NAME" x="29.845" y="45.085" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="29.845" y="37.465" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="R33" library="dan" package="R0603" value="1Meg" x="35.56" y="54.61" smashed="yes" rot="R270">
+<element name="R33" library="dan" package="R0603" value="100" x="35.56" y="54.61" smashed="yes" rot="R270">
 <attribute name="NAME" x="34.925" y="60.325" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="34.925" y="52.705" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
@@ -1013,7 +1013,7 @@ design rules under a new name.</description>
 </element>
 <element name="C9" library="dan" package="C0603" value="1u" x="77.47" y="97.79" smashed="yes">
 <attribute name="NAME" x="78.105" y="100.965" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
-<attribute name="VALUE" x="78.105" y="95.885" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
+<attribute name="VALUE" x="76.835" y="97.155" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="C10" library="dan" package="C0603" value="1u" x="24.13" y="82.55" smashed="yes" rot="R180">
 <attribute name="NAME" x="20.955" y="83.185" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
@@ -1028,8 +1028,8 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="55.245" y="104.775" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="C13" library="dan" package="C0603" value="1u" x="15.24" y="64.77" smashed="yes">
-<attribute name="NAME" x="15.875" y="62.865" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
-<attribute name="VALUE" x="17.145" y="65.405" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="17.145" y="66.675" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
+<attribute name="VALUE" x="18.415" y="64.135" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="C14" library="dan" package="C0603" value="1u" x="69.85" y="68.58" smashed="yes" rot="R90">
 <attribute name="NAME" x="67.945" y="70.485" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
@@ -1061,7 +1061,7 @@ design rules under a new name.</description>
 </element>
 <element name="R48" library="dan" package="R0603" value="4.7K" x="53.34" y="25.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="52.705" y="31.115" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
-<attribute name="VALUE" x="55.245" y="23.495" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
+<attribute name="VALUE" x="55.245" y="27.305" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="R49" library="dan" package="R0603" value="10K" x="91.44" y="35.56" smashed="yes" rot="R270">
 <attribute name="NAME" x="90.805" y="41.275" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
@@ -1202,7 +1202,7 @@ design rules under a new name.</description>
 <contactref element="C11" pad="1"/>
 <contactref element="C12" pad="1"/>
 <contactref element="C10" pad="1"/>
-<wire x1="30.48" y1="84.24" x2="29.21" y2="84.24" width="0.4064" layer="1"/>
+<wire x1="30.48" y1="84.24" x2="29.21" y2="84.24" width="0.8128" layer="1"/>
 <wire x1="71.12" y1="100.3935" x2="71.12" y2="97.79" width="0.4064" layer="1"/>
 <wire x1="71.12" y1="97.79" x2="76.62" y2="97.79" width="0.4064" layer="1"/>
 <via x="24.13" y="81.28" extent="1-16" drill="0.6" shape="square"/>
@@ -1243,10 +1243,9 @@ design rules under a new name.</description>
 <wire x1="20.32" y1="38.52" x2="17.78" y2="38.52" width="0.8128" layer="1"/>
 <wire x1="17.78" y1="38.52" x2="17.78" y2="46.99" width="0.8128" layer="1"/>
 <via x="17.78" y="46.99" extent="1-16" drill="0.6" shape="square"/>
-<via x="15.24" y="48.26" extent="1-16" drill="0.6" shape="square"/>
-<wire x1="15.24" y1="48.26" x2="15.24" y2="49.95" width="0.8128" layer="1"/>
-<wire x1="15.24" y1="48.26" x2="17.78" y2="48.26" width="0.8128" layer="16"/>
-<wire x1="17.78" y1="48.26" x2="17.78" y2="46.99" width="0.8128" layer="16"/>
+<via x="15.24" y="46.99" extent="1-16" drill="0.6" shape="square"/>
+<wire x1="15.24" y1="46.99" x2="15.24" y2="49.95" width="0.8128" layer="1"/>
+<wire x1="15.24" y1="46.99" x2="17.78" y2="46.99" width="0.8128" layer="16"/>
 <wire x1="44.45" y1="70.27" x2="44.45" y2="66.04" width="0.8128" layer="1"/>
 <via x="44.45" y="66.04" extent="1-16" drill="0.6" shape="square"/>
 <wire x1="44.45" y1="66.04" x2="41.91" y2="66.04" width="0.8128" layer="16"/>
@@ -1286,7 +1285,7 @@ design rules under a new name.</description>
 <wire x1="30.48" y1="36.83" x2="25.4" y2="36.83" width="0.8128" layer="16"/>
 <via x="25.4" y="36.83" extent="1-16" drill="0.6" shape="square"/>
 <wire x1="25.4" y1="36.83" x2="25.4" y2="38.52" width="0.8128" layer="1"/>
-<wire x1="12.7" y1="38.52" x2="12.7" y2="36.83" width="0.8128" layer="1"/>
+<wire x1="12.7" y1="39.79" x2="12.7" y2="36.83" width="0.8128" layer="1"/>
 <via x="12.7" y="36.83" extent="1-16" drill="0.6" shape="square"/>
 <wire x1="12.7" y1="36.83" x2="25.4" y2="36.83" width="0.8128" layer="16"/>
 <contactref element="POWER" pad="10"/>
@@ -1424,13 +1423,13 @@ design rules under a new name.</description>
 <wire x1="3.81" y1="84.24" x2="3.81" y2="83.82" width="0.4064" layer="1"/>
 <via x="58.42" y="77.47" extent="1-16" drill="0.6" shape="square"/>
 <via x="62.23" y="77.47" extent="1-16" drill="0.6" shape="square"/>
-<via x="35.56" y="91.44" extent="1-16" drill="0.6" shape="square"/>
+<via x="30.48" y="90.17" extent="1-16" drill="0.6" shape="square"/>
 <via x="86.36" y="83.82" extent="1-16" drill="0.6" shape="square"/>
 <via x="46.99" y="27.94" extent="1-16" drill="0.6" shape="square"/>
 <via x="35.56" y="43.18" extent="1-16" drill="0.6" shape="square"/>
 <via x="55.88" y="76.2" extent="1-16" drill="0.6" shape="square"/>
-<via x="36.83" y="77.47" extent="1-16" drill="0.6" shape="square"/>
-<via x="38.1" y="78.74" extent="1-16" drill="0.6" shape="square"/>
+<via x="38.1" y="80.01" extent="1-16" drill="0.6" shape="square"/>
+<via x="39.37" y="90.17" extent="1-16" drill="0.6" shape="square"/>
 <via x="25.4" y="101.6" extent="1-16" drill="0.6" shape="square"/>
 <via x="17.78" y="101.6" extent="1-16" drill="0.6" shape="square"/>
 <via x="10.16" y="102.87" extent="1-16" drill="0.6" shape="square"/>
@@ -1476,10 +1475,20 @@ design rules under a new name.</description>
 <via x="49.53" y="38.1" extent="1-16" drill="0.6" shape="square"/>
 <via x="36.83" y="38.1" extent="1-16" drill="0.6" shape="square"/>
 <via x="77.47" y="67.31" extent="1-16" drill="0.6" shape="square"/>
-<via x="59.69" y="59.69" extent="1-16" drill="0.6" shape="square"/>
+<via x="59.69" y="57.15" extent="1-16" drill="0.6" shape="square"/>
 <via x="58.42" y="69.85" extent="1-16" drill="0.6" shape="square"/>
 <via x="20.32" y="64.77" extent="1-16" drill="0.6" shape="square"/>
 <via x="27.94" y="64.77" extent="1-16" drill="0.6" shape="square"/>
+<via x="40.64" y="38.1" extent="1-16" drill="0.6" shape="square"/>
+<via x="40.64" y="43.18" extent="1-16" drill="0.6" shape="square"/>
+<via x="40.64" y="40.64" extent="1-16" drill="0.6" shape="square"/>
+<via x="64.77" y="57.15" extent="1-16" drill="0.6" shape="square"/>
+<via x="67.31" y="46.99" extent="1-16" drill="0.6" shape="square"/>
+<via x="5.08" y="64.77" extent="1-16" drill="0.6" shape="square"/>
+<via x="8.89" y="39.37" extent="1-16" drill="0.6" shape="square"/>
+<via x="58.42" y="66.04" extent="1-16" drill="0.6" shape="square"/>
+<via x="58.42" y="62.23" extent="1-16" drill="0.6" shape="square"/>
+<via x="78.74" y="63.5" extent="1-16" drill="0.6" shape="square"/>
 </signal>
 <signal name="N$7">
 <contactref element="R4" pad="1"/>
@@ -1601,10 +1610,10 @@ design rules under a new name.</description>
 <contactref element="SYNCSW" pad="2"/>
 <wire x1="8.89" y1="48.33" x2="8.89" y2="44.45" width="0.4064" layer="1"/>
 <via x="8.89" y="44.45" extent="1-16" drill="0.6" shape="square"/>
-<wire x1="8.89" y1="44.45" x2="16.51" y2="44.45" width="0.4064" layer="16"/>
-<via x="16.51" y="44.45" extent="1-16" drill="0.6" shape="square"/>
-<wire x1="16.51" y1="44.45" x2="16.51" y2="33.02" width="0.4064" layer="1"/>
-<via x="16.51" y="33.02" extent="1-16" drill="0.6" shape="square"/>
+<wire x1="8.89" y1="44.45" x2="15.24" y2="44.45" width="0.4064" layer="16"/>
+<via x="15.24" y="44.45" extent="1-16" drill="0.6" shape="square"/>
+<wire x1="15.24" y1="44.45" x2="15.24" y2="33.02" width="0.4064" layer="1"/>
+<via x="15.24" y="33.02" extent="1-16" drill="0.6" shape="square"/>
 <via x="41.91" y="31.75" extent="1-16" drill="0.6" shape="square"/>
 <via x="40.64" y="16.51" extent="1-16" drill="0.6" shape="square"/>
 <via x="88.9" y="33.02" extent="1-16" drill="0.6" shape="square"/>
@@ -1627,8 +1636,8 @@ design rules under a new name.</description>
 <wire x1="40.64" y1="16.51" x2="41.91" y2="16.51" width="0.4064" layer="1"/>
 <wire x1="41.91" y1="16.51" x2="41.91" y2="31.75" width="0.4064" layer="1"/>
 <wire x1="48.26" y1="16.51" x2="40.64" y2="16.51" width="0.4064" layer="16"/>
-<wire x1="41.91" y1="31.75" x2="16.51" y2="31.75" width="0.4064" layer="16"/>
-<wire x1="16.51" y1="31.75" x2="16.51" y2="33.02" width="0.4064" layer="16"/>
+<wire x1="41.91" y1="31.75" x2="15.24" y2="31.75" width="0.4064" layer="16"/>
+<wire x1="15.24" y1="31.75" x2="15.24" y2="33.02" width="0.4064" layer="16"/>
 <wire x1="41.91" y1="31.75" x2="88.9" y2="31.75" width="0.4064" layer="16"/>
 <wire x1="88.9" y1="31.75" x2="88.9" y2="33.02" width="0.4064" layer="16"/>
 </signal>
@@ -1663,13 +1672,9 @@ design rules under a new name.</description>
 <wire x1="39.37" y1="85.09" x2="34.29" y2="85.09" width="0.4064" layer="16"/>
 <wire x1="22.86" y1="38.52" x2="22.86" y2="35.56" width="0.4064" layer="1"/>
 <via x="22.86" y="35.56" extent="1-16" drill="0.6" shape="square"/>
-<wire x1="22.86" y1="35.56" x2="35.56" y2="35.56" width="0.4064" layer="16"/>
-<via x="35.56" y="35.56" extent="1-16" drill="0.6" shape="square"/>
-<wire x1="35.56" y1="35.56" x2="35.56" y2="40.64" width="0.4064" layer="1"/>
-<via x="35.56" y="40.64" extent="1-16" drill="0.6" shape="square"/>
-<wire x1="35.56" y1="40.64" x2="38.1" y2="40.64" width="0.4064" layer="16"/>
-<via x="38.1" y="40.64" extent="1-16" drill="0.6" shape="square"/>
-<wire x1="38.1" y1="40.64" x2="38.1" y2="64.77" width="0.4064" layer="1"/>
+<wire x1="22.86" y1="35.56" x2="38.1" y2="35.56" width="0.4064" layer="16"/>
+<via x="38.1" y="35.56" extent="1-16" drill="0.6" shape="square"/>
+<wire x1="38.1" y1="35.56" x2="38.1" y2="64.77" width="0.4064" layer="1"/>
 <wire x1="38.1" y1="64.77" x2="39.37" y2="64.77" width="0.4064" layer="1"/>
 <wire x1="46.99" y1="64.77" x2="60.96" y2="64.77" width="0.4064" layer="16"/>
 <via x="60.96" y="64.77" extent="1-16" drill="0.6" shape="square"/>
@@ -1770,7 +1775,7 @@ design rules under a new name.</description>
 <via x="10.16" y="46.99" extent="1-16" drill="0.6" shape="square"/>
 <wire x1="10.16" y1="46.99" x2="12.7" y2="46.99" width="0.4064" layer="16"/>
 <via x="12.7" y="46.99" extent="1-16" drill="0.6" shape="square"/>
-<wire x1="12.7" y1="46.99" x2="12.7" y2="40.22" width="0.4064" layer="1"/>
+<wire x1="12.7" y1="46.99" x2="12.7" y2="41.49" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$13">
 <contactref element="R22" pad="1"/>
