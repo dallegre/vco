@@ -8559,6 +8559,10 @@ Source: 3M</description>
 <sheets>
 <sheet>
 <plain>
+<text x="124.46" y="38.1" size="1.778" layer="91">check this and this amp's polarity</text>
+<text x="78.74" y="147.32" size="1.778" layer="91">This topology was checked by simulation</text>
+<text x="86.36" y="25.4" size="1.778" layer="91">Check this topology one more time</text>
+<text x="165.1" y="132.08" size="1.778" layer="91">Verify location of sync input</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="71.12" y="15.24" rot="MR180"/>
