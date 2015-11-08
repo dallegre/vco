@@ -9384,11 +9384,6 @@ Source: 3M</description>
 <label x="205.74" y="-20.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="D" pin="+IN"/>
-<wire x1="165.1" y1="45.72" x2="157.48" y2="45.72" width="0.1524" layer="91"/>
-<label x="157.48" y="45.72" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="R51" gate="G$1" pin="1"/>
 <wire x1="165.1" y1="7.62" x2="162.56" y2="7.62" width="0.1524" layer="91"/>
 <label x="165.1" y="7.62" size="1.778" layer="95"/>
@@ -9405,7 +9400,7 @@ Source: 3M</description>
 <junction x="127" y="111.76"/>
 </segment>
 </net>
-<net name="N$12" class="0">
+<net name="TOSQU" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
 <pinref part="U$2" gate="G$1" pin="C"/>
@@ -9428,6 +9423,12 @@ Source: 3M</description>
 <wire x1="20.32" y1="129.54" x2="22.86" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="144.78" x2="20.32" y2="144.78" width="0.1524" layer="91"/>
 <junction x="119.38" y="127"/>
+<label x="55.88" y="144.78" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="D" pin="+IN"/>
+<wire x1="165.1" y1="45.72" x2="157.48" y2="45.72" width="0.1524" layer="91"/>
+<label x="157.48" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$4" class="0">

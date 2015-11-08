@@ -13783,10 +13783,11 @@ Source: 3M</description>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="20.32" y1="10.16" x2="20.32" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="20.32" y1="12.7" x2="20.32" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="12.7" x2="20.32" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="17.78" x2="7.62" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="12.7" x2="20.32" y2="12.7" width="0.1524" layer="91"/>
 <junction x="20.32" y="12.7"/>
+<pinref part="R6" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="A" pin="+IN"/>
@@ -13972,6 +13973,22 @@ Source: 3M</description>
 <wire x1="160.02" y1="203.2" x2="154.94" y2="203.2" width="0.1524" layer="91"/>
 <junction x="154.94" y="203.2"/>
 <wire x1="149.86" y1="205.74" x2="154.94" y2="205.74" width="0.1524" layer="91"/>
+<junction x="154.94" y="205.74"/>
+</segment>
+<segment>
+<pinref part="BP" gate="G$1" pin="P$2"/>
+<wire x1="218.44" y1="81.28" x2="215.9" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="81.28" x2="215.9" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="BP" gate="G$1" pin="P$4"/>
+<wire x1="215.9" y1="86.36" x2="215.9" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="88.9" x2="218.44" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="BP" gate="G$1" pin="P$1"/>
+<wire x1="218.44" y1="86.36" x2="215.9" y2="86.36" width="0.1524" layer="91"/>
+<junction x="215.9" y="86.36"/>
+<wire x1="215.9" y1="88.9" x2="210.82" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="88.9" x2="210.82" y2="86.36" width="0.1524" layer="91"/>
+<junction x="215.9" y="88.9"/>
+<pinref part="GND20" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -14215,6 +14232,7 @@ Source: 3M</description>
 <wire x1="104.14" y1="45.72" x2="104.14" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="-"/>
 <wire x1="86.36" y1="38.1" x2="104.14" y2="38.1" width="0.1524" layer="91"/>
+<junction x="104.14" y="38.1"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -14261,6 +14279,7 @@ Source: 3M</description>
 <wire x1="-86.36" y1="12.7" x2="-96.52" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="-96.52" y1="12.7" x2="-96.52" y2="5.08" width="0.1524" layer="91"/>
 <junction x="-96.52" y="5.08"/>
+<junction x="-101.6" y="5.08"/>
 </segment>
 </net>
 <net name="N$28" class="0">
@@ -14290,14 +14309,6 @@ Source: 3M</description>
 <junction x="-101.6" y="35.56"/>
 </segment>
 </net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="IC2" gate="C" pin="+IN"/>
-<wire x1="-127" y1="38.1" x2="-124.46" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="-124.46" y1="38.1" x2="-139.7" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="AIN" gate="G$1" pin="P$3"/>
-</segment>
-</net>
 <net name="N$33" class="0">
 <segment>
 <pinref part="IC2" gate="D" pin="+IN"/>
@@ -14325,6 +14336,7 @@ Source: 3M</description>
 <wire x1="-43.18" y1="-43.18" x2="-38.1" y2="-43.18" width="0.1524" layer="91"/>
 <wire x1="-38.1" y1="-43.18" x2="-38.1" y2="-33.02" width="0.1524" layer="91"/>
 <junction x="-38.1" y="-33.02"/>
+<pinref part="IC2" gate="B" pin="OUT"/>
 </segment>
 </net>
 <net name="N$36" class="0">
@@ -14630,22 +14642,6 @@ Source: 3M</description>
 <junction x="203.2" y="76.2"/>
 </segment>
 </net>
-<net name="N$57" class="0">
-<segment>
-<pinref part="BP" gate="G$1" pin="P$2"/>
-<wire x1="218.44" y1="81.28" x2="215.9" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="81.28" x2="215.9" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="BP" gate="G$1" pin="P$4"/>
-<wire x1="215.9" y1="86.36" x2="215.9" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="88.9" x2="218.44" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="BP" gate="G$1" pin="P$1"/>
-<wire x1="218.44" y1="86.36" x2="215.9" y2="86.36" width="0.1524" layer="91"/>
-<junction x="215.9" y="86.36"/>
-<wire x1="215.9" y1="88.9" x2="210.82" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="88.9" x2="210.82" y2="83.82" width="0.1524" layer="91"/>
-<junction x="215.9" y="88.9"/>
-</segment>
-</net>
 <net name="N$60" class="0">
 <segment>
 <pinref part="FREQ" gate="G$1" pin="S"/>
@@ -14667,6 +14663,13 @@ Source: 3M</description>
 <pinref part="C7" gate="G$1" pin="+"/>
 <pinref part="R16" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="38.1" x2="73.66" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="AIN" gate="G$1" pin="P$3"/>
+<pinref part="IC2" gate="C" pin="+IN"/>
+<wire x1="-139.7" y1="38.1" x2="-124.46" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

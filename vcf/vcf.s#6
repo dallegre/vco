@@ -8011,12 +8011,13 @@ Source: Panasonic</description>
 <pinref part="Q6" gate="G$1" pin="C"/>
 <wire x1="50.8" y1="129.54" x2="50.8" y2="127" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$2" pin="E"/>
-<wire x1="50.8" y1="154.94" x2="50.8" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="C" pin="+IN"/>
-<wire x1="50.8" y1="137.16" x2="50.8" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="137.16" x2="50.8" y2="137.16" width="0.1524" layer="91"/>
-<junction x="50.8" y="137.16"/>
+<wire x1="50.8" y1="154.94" x2="50.8" y2="152.4" width="0.1524" layer="91"/>
 <junction x="50.8" y="129.54"/>
+<pinref part="IC1" gate="D" pin="+IN"/>
+<wire x1="50.8" y1="149.86" x2="50.8" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="152.4" x2="50.8" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="152.4" x2="50.8" y2="149.86" width="0.1524" layer="91"/>
+<junction x="50.8" y="152.4"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -8026,12 +8027,12 @@ Source: Panasonic</description>
 <pinref part="Q3" gate="G$1" pin="C"/>
 <wire x1="38.1" y1="129.54" x2="38.1" y2="127" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="E"/>
-<wire x1="38.1" y1="154.94" x2="38.1" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="D" pin="+IN"/>
-<wire x1="38.1" y1="152.4" x2="38.1" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="152.4" x2="38.1" y2="152.4" width="0.1524" layer="91"/>
-<junction x="38.1" y="152.4"/>
+<wire x1="38.1" y1="154.94" x2="38.1" y2="137.16" width="0.1524" layer="91"/>
 <junction x="38.1" y="129.54"/>
+<pinref part="IC1" gate="C" pin="+IN"/>
+<wire x1="38.1" y1="137.16" x2="38.1" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="137.16" x2="38.1" y2="137.16" width="0.1524" layer="91"/>
+<junction x="38.1" y="137.16"/>
 </segment>
 </net>
 <net name="N$10" class="0">

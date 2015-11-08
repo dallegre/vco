@@ -8551,6 +8551,8 @@ Source: 3M</description>
 <part name="R50" library="dan" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="GND36" library="dan" deviceset="GND" device=""/>
 <part name="R51" library="dan" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R52" library="dan" deviceset="R-US_" device="R0603" value="1Meg"/>
+<part name="GND37" library="dan" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8609,7 +8611,7 @@ Source: 3M</description>
 <instance part="SCALE" gate="G$1" x="-22.86" y="63.5"/>
 <instance part="GND8" gate="1" x="-22.86" y="50.8"/>
 <instance part="GND9" gate="1" x="-48.26" y="88.9"/>
-<instance part="VPEROCT" gate="G$1" x="-68.58" y="86.36"/>
+<instance part="VPEROCT" gate="G$1" x="-71.12" y="86.36"/>
 <instance part="GND7" gate="1" x="71.12" y="116.84"/>
 <instance part="C2" gate="G$1" x="83.82" y="137.16" rot="MR270"/>
 <instance part="R20" gate="G$1" x="142.24" y="96.52" rot="R90"/>
@@ -8745,6 +8747,8 @@ Source: 3M</description>
 <instance part="R50" gate="G$1" x="127" y="55.88" rot="R270"/>
 <instance part="GND36" gate="1" x="127" y="45.72" rot="MR0"/>
 <instance part="R51" gate="G$1" x="157.48" y="7.62" rot="R180"/>
+<instance part="R52" gate="G$1" x="-58.42" y="73.66" rot="R90"/>
+<instance part="GND37" gate="1" x="-58.42" y="63.5"/>
 </instances>
 <busses>
 </busses>
@@ -9009,12 +9013,12 @@ Source: 3M</description>
 <pinref part="GND9" gate="1" pin="GND"/>
 <pinref part="VPEROCT" gate="G$1" pin="P$4"/>
 <wire x1="-48.26" y1="91.44" x2="-48.26" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="-48.26" y1="93.98" x2="-58.42" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="-48.26" y1="93.98" x2="-60.96" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="VPEROCT" gate="G$1" pin="P$1"/>
-<wire x1="-58.42" y1="91.44" x2="-53.34" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="91.44" x2="-53.34" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="VPEROCT" gate="G$1" pin="P$2"/>
 <wire x1="-53.34" y1="91.44" x2="-48.26" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="-58.42" y1="86.36" x2="-53.34" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="86.36" x2="-53.34" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="-53.34" y1="86.36" x2="-53.34" y2="91.44" width="0.1524" layer="91"/>
 <junction x="-53.34" y="91.44"/>
 <junction x="-48.26" y="91.44"/>
@@ -9315,6 +9319,11 @@ Source: 3M</description>
 <pinref part="GND36" gate="1" pin="GND"/>
 <pinref part="R50" gate="G$1" pin="2"/>
 <wire x1="127" y1="48.26" x2="127" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND37" gate="1" pin="GND"/>
+<pinref part="R52" gate="G$1" pin="1"/>
+<wire x1="-58.42" y1="66.04" x2="-58.42" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -9872,6 +9881,10 @@ Source: 3M</description>
 <pinref part="IC4" gate="D" pin="+IN"/>
 <pinref part="VPEROCT" gate="G$1" pin="P$3"/>
 <wire x1="-50.8" y1="81.28" x2="-58.42" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="R52" gate="G$1" pin="2"/>
+<wire x1="-58.42" y1="81.28" x2="-60.96" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="78.74" x2="-58.42" y2="81.28" width="0.1524" layer="91"/>
+<junction x="-58.42" y="81.28"/>
 </segment>
 </net>
 <net name="N$55" class="0">
