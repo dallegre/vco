@@ -773,8 +773,8 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="3.25" y="53.27" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="C1" library="dan" package="C0603" value="100p" x="25.4" y="72.39" smashed="yes" rot="R270">
-<attribute name="NAME" x="23.495" y="76.835" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
-<attribute name="VALUE" x="26.035" y="70.485" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="22.225" y="74.295" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
+<attribute name="VALUE" x="23.495" y="75.565" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="FINE" library="dan" package="EVUFXJ" value="10K" x="48.26" y="86.36" smashed="yes">
 <attribute name="NAME" x="53.49" y="91.9" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -5693,12 +5693,10 @@ distributor Buerklin, 11G810</description>
 <pin name="OUT" x="6.985" y="0" visible="pad" length="middle" rot="R180"/>
 </symbol>
 <symbol name="OTA_WD_PWR">
-<wire x1="-6.985" y1="17.78" x2="-6.985" y2="12.7" width="0.254" layer="94"/>
-<wire x1="-6.985" y1="-1.27" x2="-6.985" y2="3.81" width="0.254" layer="94"/>
-<text x="-5.715" y="19.05" size="1.778" layer="94">V+</text>
-<text x="-5.715" y="-4.445" size="1.778" layer="94">V-</text>
-<pin name="V+" x="-6.985" y="22.86" visible="pad" length="middle" rot="R270"/>
-<pin name="V-" x="-6.985" y="-6.35" visible="pad" length="middle" rot="R90"/>
+<text x="-3.175" y="8.89" size="1.778" layer="94">V+</text>
+<text x="-3.175" y="3.175" size="1.778" layer="94">V-</text>
+<pin name="V+" x="-5.08" y="12.7" visible="pad" length="middle" rot="R270"/>
+<pin name="V-" x="-5.08" y="0" visible="pad" length="middle" rot="R90"/>
 </symbol>
 <symbol name="R-US">
 <wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.2032" layer="94"/>
