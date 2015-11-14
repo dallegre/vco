@@ -8562,9 +8562,12 @@ Source: 3M</description>
 <text x="165.1" y="132.08" size="1.778" layer="91">Verify location of sync input</text>
 <text x="-124.46" y="154.94" size="1.778" layer="91">Post Fab Notes:</text>
 <text x="-124.46" y="149.86" size="1.778" layer="91">R25 changed to 10K to improve sawtooth</text>
-<text x="-121.92" y="144.78" size="1.778" layer="91">R19 will have to be smaller to get 1V/oct</text>
+<text x="-121.92" y="144.78" size="1.778" layer="91">R19 will is 5K </text>
 <text x="-119.38" y="139.7" size="1.778" layer="91">Sine wave not yet working</text>
-<text x="-114.3" y="134.62" size="1.778" layer="91">DC offset on triangle</text>
+<text x="-114.3" y="134.62" size="1.778" layer="91">DC offset on triangle (look at R7 and R6)</text>
+<text x="-111.76" y="129.54" size="1.778" layer="91">C3 is DNP</text>
+<text x="-109.22" y="124.46" size="1.778" layer="91">C4 is 1u</text>
+<text x="-106.68" y="119.38" size="1.778" layer="91">C5 is 1u</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="71.12" y="15.24"/>
