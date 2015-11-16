@@ -9827,7 +9827,7 @@ Source: www.kingbright.com</description>
 <part name="GND3" library="dan" deviceset="GND" device=""/>
 <part name="U$2" library="dan" deviceset="BCM847" device=""/>
 <part name="R5" library="dan" deviceset="R-US_" device="R0603" value="2.4K"/>
-<part name="R6" library="dan" deviceset="R-US_" device="R0603" value="20K"/>
+<part name="R6" library="dan" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="R7" library="dan" deviceset="R-US_" device="R0603" value="1K"/>
 <part name="P+3" library="dan" deviceset="+12V" device=""/>
 <part name="P-2" library="dan" deviceset="-12V" device=""/>
@@ -9837,7 +9837,7 @@ Source: www.kingbright.com</description>
 <part name="R11" library="dan" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="GND4" library="dan" deviceset="GND" device=""/>
 <part name="GND5" library="dan" deviceset="GND" device=""/>
-<part name="R12" library="dan" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R12" library="dan" deviceset="R-US_" device="R0603" value="47K"/>
 <part name="R13" library="dan" deviceset="R-US_" device="R0603" value="1.2k"/>
 <part name="GND6" library="dan" deviceset="GND" device=""/>
 <part name="COARSE" library="dan" deviceset="US-EVU" device="F2J" value="10K"/>
@@ -9852,7 +9852,7 @@ Source: www.kingbright.com</description>
 <part name="R17" library="dan" deviceset="R-US_" device="R0603" value="100"/>
 <part name="P-4" library="dan" deviceset="-12V" device=""/>
 <part name="P+2" library="dan" deviceset="+12V" device=""/>
-<part name="R18" library="dan" deviceset="R-US_" device="R0603" value="100K"/>
+<part name="R18" library="dan" deviceset="R-US_" device="R0603" value="470K"/>
 <part name="R19" library="dan" deviceset="R-US_" device="R0603" value="4.7K"/>
 <part name="P-5" library="dan" deviceset="-12V" device=""/>
 <part name="SCALE" library="dan" deviceset="TRIM_US-" device="B64Y"/>
@@ -9867,14 +9867,14 @@ Source: www.kingbright.com</description>
 <part name="GND10" library="dan" deviceset="GND" device=""/>
 <part name="TRIOUT" library="dan" deviceset="PJ301BM" device=""/>
 <part name="GND11" library="dan" deviceset="GND" device=""/>
-<part name="R22" library="dan" deviceset="R-US_" device="R0603" value="10K"/>
-<part name="R23" library="dan" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R22" library="dan" deviceset="R-US_" device="R0603" value="1K"/>
+<part name="R23" library="dan" deviceset="R-US_" device="R0603" value="1K"/>
 <part name="GND12" library="dan" deviceset="GND" device=""/>
 <part name="GND13" library="dan" deviceset="GND" device=""/>
 <part name="U$3" library="dan" deviceset="2N7000" device=""/>
 <part name="R24" library="dan" deviceset="R-US_" device="R0603" value="1Meg"/>
 <part name="GND14" library="dan" deviceset="GND" device=""/>
-<part name="R25" library="dan" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R25" library="dan" deviceset="R-US_" device="R0603" value="1K"/>
 <part name="GND15" library="dan" deviceset="GND" device=""/>
 <part name="IC3" library="dan" deviceset="OPA4130" device="U"/>
 <part name="R26" library="dan" deviceset="R-US_" device="R0603" value="100K"/>
@@ -9897,8 +9897,8 @@ Source: www.kingbright.com</description>
 <part name="SQUARE" library="dan" deviceset="PJ301BM" device=""/>
 <part name="GND18" library="dan" deviceset="GND" device=""/>
 <part name="SAW" library="dan" deviceset="PJ301BM" device=""/>
-<part name="R36" library="dan" deviceset="R-US_" device="R0603" value="10K"/>
-<part name="R37" library="dan" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R36" library="dan" deviceset="R-US_" device="R0603" value="1K"/>
+<part name="R37" library="dan" deviceset="R-US_" device="R0603" value="1K"/>
 <part name="GND19" library="dan" deviceset="GND" device=""/>
 <part name="GND20" library="dan" deviceset="GND" device=""/>
 <part name="C4" library="dan" deviceset="C-US" device="C0603" value="1u"/>
@@ -9917,7 +9917,7 @@ Source: www.kingbright.com</description>
 <part name="GND23" library="dan" deviceset="GND" device=""/>
 <part name="SIN" library="dan" deviceset="PJ301BM" device=""/>
 <part name="GND24" library="dan" deviceset="GND" device=""/>
-<part name="R44" library="dan" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R44" library="dan" deviceset="R-US_" device="R0603" value="1K"/>
 <part name="R45" library="dan" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="GND25" library="dan" deviceset="GND" device=""/>
 <part name="R46" library="dan" deviceset="R-US_" device="R0603" value="10K"/>
@@ -9931,7 +9931,7 @@ Source: www.kingbright.com</description>
 <part name="LINMODAMT" library="dan" deviceset="US-EVU" device="F2J" value="10K"/>
 <part name="SYNC" library="dan" deviceset="PJ301BM" device=""/>
 <part name="IC4" library="dan" deviceset="OPA4130" device="U"/>
-<part name="C6" library="dan" deviceset="C-US" device="C0603" value="1n"/>
+<part name="C6" library="dan" deviceset="C-US" device="C0603" value="100p"/>
 <part name="C7" library="dan" deviceset="C-US" device="C0603" value="1n"/>
 <part name="GND29" library="dan" deviceset="GND" device=""/>
 <part name="P+7" library="dan" deviceset="+12V" device=""/>
@@ -9939,7 +9939,7 @@ Source: www.kingbright.com</description>
 <part name="GND30" library="dan" deviceset="GND" device=""/>
 <part name="GND31" library="dan" deviceset="GND" device=""/>
 <part name="SYNCSW" library="dan" deviceset="255SB" device=""/>
-<part name="R47" library="dan" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R47" library="dan" deviceset="R-US_" device="R0603" value="4.7K"/>
 <part name="GND32" library="dan" deviceset="GND" device=""/>
 <part name="POWER" library="dan" deviceset="2516-" device=""/>
 <part name="GND33" library="dan" deviceset="GND" device=""/>
@@ -9967,8 +9967,8 @@ Source: www.kingbright.com</description>
 <part name="R48" library="dan" deviceset="R-US_" device="R0603" value="4.7K"/>
 <part name="P+11" library="dan" deviceset="+12V" device=""/>
 <part name="P-12" library="dan" deviceset="-12V" device=""/>
-<part name="R49" library="dan" deviceset="R-US_" device="R0603" value="10K"/>
-<part name="R50" library="dan" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R49" library="dan" deviceset="R-US_" device="R0603" value="1K"/>
+<part name="R50" library="dan" deviceset="R-US_" device="R0603" value="1K"/>
 <part name="GND36" library="dan" deviceset="GND" device=""/>
 <part name="R51" library="dan" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="R52" library="dan" deviceset="R-US_" device="R0603" value="1Meg"/>

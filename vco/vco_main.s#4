@@ -9827,7 +9827,7 @@ Source: www.kingbright.com</description>
 <part name="GND3" library="dan" deviceset="GND" device=""/>
 <part name="U$2" library="dan" deviceset="BCM847" device=""/>
 <part name="R5" library="dan" deviceset="R-US_" device="R0603" value="2.4K"/>
-<part name="R6" library="dan" deviceset="R-US_" device="R0603" value="20K"/>
+<part name="R6" library="dan" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="R7" library="dan" deviceset="R-US_" device="R0603" value="1K"/>
 <part name="P+3" library="dan" deviceset="+12V" device=""/>
 <part name="P-2" library="dan" deviceset="-12V" device=""/>
@@ -9852,7 +9852,7 @@ Source: www.kingbright.com</description>
 <part name="R17" library="dan" deviceset="R-US_" device="R0603" value="100"/>
 <part name="P-4" library="dan" deviceset="-12V" device=""/>
 <part name="P+2" library="dan" deviceset="+12V" device=""/>
-<part name="R18" library="dan" deviceset="R-US_" device="R0603" value="100K"/>
+<part name="R18" library="dan" deviceset="R-US_" device="R0603" value="470K"/>
 <part name="R19" library="dan" deviceset="R-US_" device="R0603" value="4.7K"/>
 <part name="P-5" library="dan" deviceset="-12V" device=""/>
 <part name="SCALE" library="dan" deviceset="TRIM_US-" device="B64Y"/>
@@ -9983,8 +9983,6 @@ Source: www.kingbright.com</description>
 <text x="165.1" y="132.08" size="1.778" layer="91">Verify location of sync input</text>
 <text x="-121.92" y="154.94" size="1.778" layer="91">Post Fab Notes:</text>
 <text x="-121.92" y="149.86" size="1.778" layer="91">DC offset on triangle (look at R7 and R6)</text>
-<text x="-121.92" y="139.7" size="1.778" layer="91">Add polarities for diodes, LED, pairs.</text>
-<text x="-121.92" y="144.78" size="1.778" layer="91">Change to a 5mm LED</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="71.12" y="15.24"/>
@@ -10178,7 +10176,7 @@ Source: www.kingbright.com</description>
 <instance part="GND37" gate="1" x="-58.42" y="63.5"/>
 <instance part="GND38" gate="1" x="43.18" y="-53.34"/>
 <instance part="R53" gate="G$1" x="60.96" y="-22.86" rot="MR90"/>
-<instance part="LED1" gate="G$1" x="119.38" y="15.24"/>
+<instance part="LED1" gate="G$1" x="119.38" y="12.7" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -11278,7 +11276,7 @@ Source: www.kingbright.com</description>
 <wire x1="127" y1="10.16" x2="134.62" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="127" y1="20.32" x2="119.38" y2="20.32" width="0.1524" layer="91"/>
 <junction x="127" y="20.32"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="LED1" gate="G$1" pin="C"/>
 <wire x1="119.38" y1="17.78" x2="119.38" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -11408,7 +11406,7 @@ Source: www.kingbright.com</description>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="LED1" gate="G$1" pin="C"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
 <pinref part="R47" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="10.16" x2="119.38" y2="5.08" width="0.1524" layer="91"/>
 </segment>
