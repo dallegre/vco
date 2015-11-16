@@ -47027,7 +47027,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="26.0985" y="76.962" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="IC2" library="dan" package="SO16" value="LM13700M" x="11.43" y="71.12" smashed="yes">
-<attribute name="VALUE" x="17.145" y="76.454" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
+<attribute name="VALUE" x="17.145" y="77.724" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 <attribute name="NAME" x="5.207" y="73.152" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="R1" library="dan" package="R0603" value="10K" x="12.7" y="83.82" smashed="yes" rot="R90">
@@ -47104,7 +47104,7 @@ design rules under a new name.</description>
 </element>
 <element name="C1" library="dan" package="C0603" value="100p" x="25.4" y="72.39" smashed="yes" rot="R270">
 <attribute name="NAME" x="22.225" y="74.295" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
-<attribute name="VALUE" x="23.495" y="75.565" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
+<attribute name="VALUE" x="23.495" y="76.835" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="FINE" library="dan" package="EVUFXJ" value="10K" x="48.26" y="86.36" smashed="yes">
 <attribute name="NAME" x="53.49" y="84.28" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
@@ -47360,8 +47360,8 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="23.495" y="65.405" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="C16" library="dan" package="C0603" value="1u" x="13.97" y="76.2" smashed="yes">
-<attribute name="NAME" x="14.605" y="80.645" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
-<attribute name="VALUE" x="15.875" y="79.375" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="13.335" y="80.645" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
+<attribute name="VALUE" x="14.605" y="79.375" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="C17" library="dan" package="C0603" value="1u" x="45.72" y="101.6" smashed="yes" rot="R180">
 <attribute name="NAME" x="42.545" y="104.775" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
@@ -47403,7 +47403,10 @@ design rules under a new name.</description>
 <attribute name="NAME" x="31.115" y="62.865" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="31.115" y="59.055" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="LED1" library="dan" package="LED5MM" value="" x="22.86" y="86.36" rot="R180"/>
+<element name="LED1" library="dan" package="LED5MM" value="" x="22.86" y="86.36" smashed="yes" rot="R180">
+<attribute name="NAME" x="18.3134" y="89.535" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
+<attribute name="VALUE" x="19.6596" y="88.1634" size="1.27" layer="27" ratio="10" rot="R180"/>
+</element>
 </elements>
 <signals>
 <signal name="N$2">

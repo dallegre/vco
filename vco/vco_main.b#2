@@ -47243,11 +47243,11 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="89.535" y="85.725" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="U$4" library="dan" package="SOD123" value="1N4148W" x="81.28" y="97.79" smashed="yes" rot="R90">
-<attribute name="NAME" x="81.01" y="103.97" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="78.47" y="102.7" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="82.79" y="102.7" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="U$5" library="dan" package="SOD123" value="1N4148W" x="86.36" y="97.79" smashed="yes" rot="R90">
-<attribute name="NAME" x="86.09" y="103.97" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="89.9" y="101.43" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="87.87" y="102.7" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="Q1" library="dan" package="SOT23" value="MMBFJ3" x="87.63" y="76.2" smashed="yes">

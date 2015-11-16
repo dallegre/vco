@@ -47305,7 +47305,7 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="1648707" x="71.12" y="97.79" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="65.4685" y="99.822" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="C6" library="dan" package="C0603" value="1n" x="69.85" y="87.63" smashed="yes" rot="R90">
+<element name="C6" library="dan" package="C0603" value="100p" x="69.85" y="87.63" smashed="yes" rot="R90">
 <attribute name="NAME" x="69.215" y="92.075" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="69.215" y="85.725" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
