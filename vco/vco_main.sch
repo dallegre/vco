@@ -9974,7 +9974,7 @@ Source: www.kingbright.com</description>
 <part name="R52" library="dan" deviceset="R-US_" device="R0603" value="1Meg"/>
 <part name="GND37" library="dan" deviceset="GND" device=""/>
 <part name="GND38" library="dan" deviceset="GND" device=""/>
-<part name="R53" library="dan" deviceset="R-US_" device="R0603" value="100k"/>
+<part name="R53" library="dan" deviceset="R-US_" device="R0603" value="20k"/>
 <part name="LED1" library="dan" deviceset="LED" device="5MM"/>
 </parts>
 <sheets>
@@ -9982,7 +9982,10 @@ Source: www.kingbright.com</description>
 <plain>
 <text x="165.1" y="132.08" size="1.778" layer="91">Verify location of sync input</text>
 <text x="-121.92" y="154.94" size="1.778" layer="91">Post Fab Notes:</text>
-<text x="-121.92" y="149.86" size="1.778" layer="91">DC offset on triangle (look at R7 and R6)</text>
+<text x="-121.92" y="149.86" size="1.778" layer="91">Moved via away from R25 to prevent a short when assembling</text>
+<text x="-121.92" y="144.78" size="1.778" layer="91">Need to either change switch footprint or find a different switch.</text>
+<text x="-121.92" y="139.7" size="1.778" layer="91">Moved vias away from C10, C14, C5 and C1.</text>
+<text x="-121.92" y="134.62" size="1.778" layer="91">C11 is close to a via, but I'm not sure whether to work on that one or not.</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="71.12" y="15.24"/>
