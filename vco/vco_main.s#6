@@ -9939,7 +9939,7 @@ Source: www.kingbright.com</description>
 <part name="GND30" library="dan" deviceset="GND" device=""/>
 <part name="GND31" library="dan" deviceset="GND" device=""/>
 <part name="SYNCSW" library="dan" deviceset="255SB" device=""/>
-<part name="R47" library="dan" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R47" library="dan" deviceset="R-US_" device="R0603" value="4.7K"/>
 <part name="GND32" library="dan" deviceset="GND" device=""/>
 <part name="POWER" library="dan" deviceset="2516-" device=""/>
 <part name="GND33" library="dan" deviceset="GND" device=""/>
