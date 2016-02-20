@@ -9981,11 +9981,6 @@ Distributor Buerklin, 11G810</description>
 <sheet>
 <plain>
 <text x="165.1" y="132.08" size="1.778" layer="91">Verify location of sync input</text>
-<text x="-121.92" y="154.94" size="1.778" layer="91">Post Fab Notes:</text>
-<text x="-121.92" y="149.86" size="1.778" layer="91">Moved via away from R25 to prevent a short when assembling</text>
-<text x="-121.92" y="144.78" size="1.778" layer="91">Need to either change switch footprint or find a different switch.</text>
-<text x="-121.92" y="139.7" size="1.778" layer="91">Moved vias away from C10, C14, C5 and C1.</text>
-<text x="-121.92" y="134.62" size="1.778" layer="91">C11 is close to a via, but I'm not sure whether to work on that one or not.</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="71.12" y="15.24"/>

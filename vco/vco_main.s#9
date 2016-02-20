@@ -9837,7 +9837,7 @@ Source: www.kingbright.com</description>
 <part name="R11" library="dan" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="GND4" library="dan" deviceset="GND" device=""/>
 <part name="GND5" library="dan" deviceset="GND" device=""/>
-<part name="R12" library="dan" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R12" library="dan" deviceset="R-US_" device="R0603" value="47K"/>
 <part name="R13" library="dan" deviceset="R-US_" device="R0603" value="1.2k"/>
 <part name="GND6" library="dan" deviceset="GND" device=""/>
 <part name="COARSE" library="dan" deviceset="US-EVU" device="F2J" value="10K"/>
@@ -9874,7 +9874,7 @@ Source: www.kingbright.com</description>
 <part name="U$3" library="dan" deviceset="2N7000" device=""/>
 <part name="R24" library="dan" deviceset="R-US_" device="R0603" value="1Meg"/>
 <part name="GND14" library="dan" deviceset="GND" device=""/>
-<part name="R25" library="dan" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R25" library="dan" deviceset="R-US_" device="R0603" value="1K"/>
 <part name="GND15" library="dan" deviceset="GND" device=""/>
 <part name="IC3" library="dan" deviceset="OPA4130" device="U"/>
 <part name="R26" library="dan" deviceset="R-US_" device="R0603" value="100K"/>
