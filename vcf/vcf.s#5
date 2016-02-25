@@ -13563,12 +13563,17 @@ Source: 3M</description>
 <part name="C18" library="dan" deviceset="C-US" device="C0603" value="1u"/>
 <part name="C19" library="dan" deviceset="C-US" device="C0603" value="1u"/>
 <part name="C20" library="dan" deviceset="C-US" device="C0603" value="1u"/>
+<part name="P+6" library="dan" deviceset="+12V" device=""/>
+<part name="P-4" library="dan" deviceset="-12V" device=""/>
+<part name="P+7" library="dan" deviceset="+12V" device=""/>
+<part name="P-5" library="dan" deviceset="-12V" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="-137.16" y="233.68" size="1.778" layer="91">Make sure the buffers don't share packages with the instrumentation amps.</text>
 <text x="-137.16" y="228.6" size="1.778" layer="91">Buffers have to be fet input.  Probably just make these TL084</text>
+<text x="-137.16" y="223.52" size="1.778" layer="91">coupling between IC5A and IC5D might be a conceern</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="35.56" y="38.1"/>
@@ -13590,9 +13595,9 @@ Source: 3M</description>
 <instance part="R3" gate="G$1" x="20.32" y="142.24" rot="R90"/>
 <instance part="R4" gate="G$1" x="20.32" y="124.46" rot="R90"/>
 <instance part="R5" gate="G$1" x="12.7" y="86.36"/>
-<instance part="R6" gate="G$1" x="20.32" y="20.32" rot="R90"/>
-<instance part="GND1" gate="1" x="20.32" y="7.62"/>
-<instance part="C6" gate="G$1" x="7.62" y="22.86"/>
+<instance part="R6" gate="G$1" x="20.32" y="17.78" rot="R90"/>
+<instance part="GND1" gate="1" x="20.32" y="5.08"/>
+<instance part="C6" gate="G$1" x="7.62" y="17.78"/>
 <instance part="U$3" gate="G$1" x="30.48" y="-33.02"/>
 <instance part="U$3" gate="G$2" x="48.26" y="-33.02" rot="MR0"/>
 <instance part="R7" gate="G$1" x="38.1" y="-48.26" rot="R90"/>
@@ -13603,7 +13608,7 @@ Source: 3M</description>
 <instance part="R9" gate="G$1" x="-12.7" y="30.48" rot="R90"/>
 <instance part="GND4" gate="1" x="-12.7" y="20.32"/>
 <instance part="R10" gate="G$1" x="-20.32" y="38.1"/>
-<instance part="R11" gate="G$1" x="30.48" y="27.94" rot="R180"/>
+<instance part="R11" gate="G$1" x="30.48" y="25.4" rot="R180"/>
 <instance part="P+3" gate="1" x="38.1" y="246.38"/>
 <instance part="R12" gate="G$1" x="101.6" y="190.5"/>
 <instance part="R13" gate="G$1" x="101.6" y="205.74"/>
@@ -13653,7 +13658,7 @@ Source: 3M</description>
 <instance part="R40" gate="G$1" x="185.42" y="66.04" rot="R180"/>
 <instance part="R41" gate="G$1" x="165.1" y="76.2" rot="R180"/>
 <instance part="R42" gate="G$1" x="165.1" y="66.04" rot="R180"/>
-<instance part="GND18" gate="1" x="165.1" y="86.36"/>
+<instance part="GND18" gate="1" x="165.1" y="83.82"/>
 <instance part="POWER" gate="-1" x="-60.96" y="177.8"/>
 <instance part="POWER" gate="-2" x="-60.96" y="175.26"/>
 <instance part="POWER" gate="-3" x="-60.96" y="172.72"/>
@@ -13728,8 +13733,8 @@ Source: 3M</description>
 <instance part="IC4" gate="D" x="119.38" y="60.96"/>
 <instance part="IC5" gate="A" x="-45.72" y="38.1"/>
 <instance part="IC5" gate="B" x="-45.72" y="-33.02"/>
-<instance part="IC5" gate="C" x="17.78" y="-55.88"/>
-<instance part="IC5" gate="D" x="182.88" y="78.74"/>
+<instance part="IC5" gate="C" x="182.88" y="78.74"/>
+<instance part="IC5" gate="D" x="17.78" y="-55.88"/>
 <instance part="P+1" gate="1" x="116.84" y="213.36"/>
 <instance part="P-1" gate="1" x="116.84" y="193.04"/>
 <instance part="P+4" gate="1" x="-127" y="55.88"/>
@@ -13740,6 +13745,10 @@ Source: 3M</description>
 <instance part="C18" gate="G$1" x="7.62" y="132.08" rot="R180"/>
 <instance part="C19" gate="G$1" x="-40.64" y="147.32"/>
 <instance part="C20" gate="G$1" x="-40.64" y="132.08" rot="R180"/>
+<instance part="P+6" gate="1" x="73.66" y="226.06"/>
+<instance part="P-4" gate="1" x="73.66" y="205.74"/>
+<instance part="P+7" gate="1" x="73.66" y="134.62"/>
+<instance part="P-5" gate="1" x="73.66" y="114.3"/>
 </instances>
 <busses>
 </busses>
@@ -13929,17 +13938,17 @@ Source: 3M</description>
 <wire x1="55.88" y1="86.36" x2="33.02" y2="86.36" width="0.1524" layer="91"/>
 <junction x="33.02" y="86.36"/>
 <pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="20.32" y1="25.4" x2="20.32" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="22.86" x2="20.32" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="20.32" y1="27.94" x2="20.32" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="25.4" x2="20.32" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="86.36" x2="17.78" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="7.62" y1="25.4" x2="7.62" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="27.94" x2="20.32" y2="27.94" width="0.1524" layer="91"/>
-<junction x="20.32" y="27.94"/>
+<wire x1="7.62" y1="20.32" x2="7.62" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="25.4" x2="20.32" y2="25.4" width="0.1524" layer="91"/>
+<junction x="20.32" y="25.4"/>
 <junction x="20.32" y="86.36"/>
 <pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="25.4" y1="27.94" x2="20.32" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="25.4" x2="20.32" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -13957,21 +13966,21 @@ Source: 3M</description>
 <net name="GND" class="0">
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="20.32" y1="10.16" x2="20.32" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="7.62" x2="20.32" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="20.32" y1="12.7" x2="20.32" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="17.78" x2="7.62" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="12.7" x2="20.32" y2="12.7" width="0.1524" layer="91"/>
-<junction x="20.32" y="12.7"/>
+<wire x1="20.32" y1="10.16" x2="20.32" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="12.7" x2="7.62" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="10.16" x2="20.32" y2="10.16" width="0.1524" layer="91"/>
+<junction x="20.32" y="10.16"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="7.62" y1="-50.8" x2="2.54" y2="-50.8" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="2.54" y1="-50.8" x2="2.54" y2="-53.34" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="-53.34" x2="7.62" y2="-53.34" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="-53.34" x2="7.62" y2="-50.8" width="0.1524" layer="91"/>
-<pinref part="IC5" gate="C" pin="+IN"/>
+<pinref part="IC5" gate="D" pin="+IN"/>
+<wire x1="10.16" y1="-53.34" x2="7.62" y2="-53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$3" gate="G$2" pin="B"/>
@@ -14096,12 +14105,12 @@ Source: 3M</description>
 <wire x1="109.22" y1="177.8" x2="109.22" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="175.26" y1="81.28" x2="172.72" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="81.28" x2="172.72" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="81.28" x2="172.72" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="GND18" gate="1" pin="GND"/>
-<wire x1="172.72" y1="91.44" x2="165.1" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="91.44" x2="165.1" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="IC5" gate="D" pin="+IN"/>
+<wire x1="172.72" y1="88.9" x2="165.1" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="88.9" x2="165.1" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="C" pin="+IN"/>
+<wire x1="175.26" y1="81.28" x2="172.72" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="POWER" gate="-3" pin="KL"/>
@@ -14217,6 +14226,12 @@ Source: 3M</description>
 <pinref part="C19" gate="G$1" pin="2"/>
 <wire x1="-40.64" y1="142.24" x2="-40.64" y2="139.7" width="0.1524" layer="91"/>
 <junction x="-40.64" y="139.7"/>
+<wire x1="0" y1="139.7" x2="7.62" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="C17" gate="G$1" pin="2"/>
+<wire x1="7.62" y1="139.7" x2="7.62" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="C18" gate="G$1" pin="2"/>
+<wire x1="7.62" y1="137.16" x2="7.62" y2="139.7" width="0.1524" layer="91"/>
+<junction x="7.62" y="139.7"/>
 </segment>
 <segment>
 <pinref part="Q" gate="G$1" pin="E"/>
@@ -14307,6 +14322,7 @@ Source: 3M</description>
 <pinref part="C17" gate="G$1" pin="1"/>
 <wire x1="7.62" y1="152.4" x2="7.62" y2="149.86" width="0.1524" layer="91"/>
 <junction x="-30.48" y="152.4"/>
+<junction x="0" y="152.4"/>
 </segment>
 <segment>
 <pinref part="IC4" gate="A" pin="V+"/>
@@ -14319,6 +14335,14 @@ Source: 3M</description>
 <segment>
 <pinref part="IC5" gate="A" pin="V+"/>
 <pinref part="P+5" gate="1" pin="+12V"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="A" pin="V+"/>
+<pinref part="P+6" gate="1" pin="+12V"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="A" pin="V+"/>
+<pinref part="P+7" gate="1" pin="+12V"/>
 </segment>
 </net>
 <net name="-12V" class="0">
@@ -14362,6 +14386,8 @@ Source: 3M</description>
 <wire x1="7.62" y1="129.54" x2="7.62" y2="127" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="127" x2="0" y2="127" width="0.1524" layer="91"/>
 <junction x="-30.48" y="127"/>
+<junction x="0" y="127"/>
+<junction x="0" y="127"/>
 </segment>
 <segment>
 <pinref part="IC4" gate="A" pin="V-"/>
@@ -14375,6 +14401,14 @@ Source: 3M</description>
 <pinref part="IC5" gate="A" pin="V-"/>
 <pinref part="P-3" gate="1" pin="-12V"/>
 </segment>
+<segment>
+<pinref part="IC2" gate="A" pin="V-"/>
+<pinref part="P-4" gate="1" pin="-12V"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="A" pin="V-"/>
+<pinref part="P-5" gate="1" pin="-12V"/>
+</segment>
 </net>
 <net name="N$17" class="0">
 <segment>
@@ -14382,10 +14416,10 @@ Source: 3M</description>
 <pinref part="C8" gate="G$1" pin="2"/>
 <wire x1="7.62" y1="-66.04" x2="38.1" y2="-66.04" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="-66.04" x2="38.1" y2="-55.88" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="D" pin="OUT"/>
 <wire x1="38.1" y1="-55.88" x2="38.1" y2="-53.34" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="-55.88" x2="38.1" y2="-55.88" width="0.1524" layer="91"/>
 <junction x="38.1" y="-55.88"/>
-<pinref part="IC5" gate="C" pin="OUT"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -14400,9 +14434,9 @@ Source: 3M</description>
 <junction x="33.02" y="-20.32"/>
 <pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="0" y1="-66.04" x2="-5.08" y2="-66.04" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="D" pin="-IN"/>
 <wire x1="10.16" y1="-58.42" x2="-5.08" y2="-58.42" width="0.1524" layer="91"/>
 <junction x="-5.08" y="-58.42"/>
-<pinref part="IC5" gate="C" pin="-IN"/>
 </segment>
 </net>
 <net name="N$21" class="0">
@@ -14419,13 +14453,12 @@ Source: 3M</description>
 <net name="N$22" class="0">
 <segment>
 <pinref part="R11" gate="G$1" pin="1"/>
-<wire x1="35.56" y1="27.94" x2="58.42" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="27.94" x2="58.42" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="25.4" x2="58.42" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="25.4" x2="58.42" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$2" pin="B"/>
 <wire x1="58.42" y1="38.1" x2="55.88" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="38.1" x2="58.42" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="38.1" x2="58.42" y2="35.56" width="0.1524" layer="91"/>
 <junction x="58.42" y="38.1"/>
 </segment>
 </net>
@@ -14613,6 +14646,7 @@ Source: 3M</description>
 <wire x1="111.76" y1="109.22" x2="109.22" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="109.22" x2="109.22" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="IC4" gate="C" pin="-IN"/>
+<junction x="109.22" y="99.06"/>
 </segment>
 </net>
 <net name="N$47" class="0">
@@ -14731,14 +14765,14 @@ Source: 3M</description>
 <pinref part="R41" gate="G$1" pin="1"/>
 <wire x1="170.18" y1="76.2" x2="172.72" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="R42" gate="G$1" pin="1"/>
-<wire x1="172.72" y1="76.2" x2="175.26" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="66.04" x2="170.18" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="66.04" x2="172.72" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="R40" gate="G$1" pin="2"/>
 <wire x1="180.34" y1="66.04" x2="172.72" y2="66.04" width="0.1524" layer="91"/>
 <junction x="172.72" y="66.04"/>
+<pinref part="IC5" gate="C" pin="-IN"/>
+<wire x1="175.26" y1="76.2" x2="172.72" y2="76.2" width="0.1524" layer="91"/>
 <junction x="172.72" y="76.2"/>
-<pinref part="IC5" gate="D" pin="-IN"/>
 </segment>
 </net>
 <net name="N$61" class="0">
@@ -14746,11 +14780,11 @@ Source: 3M</description>
 <pinref part="R40" gate="G$1" pin="1"/>
 <wire x1="190.5" y1="66.04" x2="198.12" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="66.04" x2="198.12" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="78.74" x2="190.5" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="BP" gate="G$1" pin="P$3"/>
 <wire x1="210.82" y1="66.04" x2="198.12" y2="66.04" width="0.1524" layer="91"/>
 <junction x="198.12" y="66.04"/>
-<pinref part="IC5" gate="D" pin="OUT"/>
+<pinref part="IC5" gate="C" pin="OUT"/>
+<wire x1="190.5" y1="78.74" x2="198.12" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$60" class="0">
@@ -14950,16 +14984,6 @@ Source: 3M</description>
 <pinref part="R44" gate="G$1" pin="2"/>
 <wire x1="-58.42" y1="-12.7" x2="-60.96" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="-58.42" y1="-30.48" x2="-58.42" y2="-12.7" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$65" class="0">
-<segment>
-<wire x1="0" y1="139.7" x2="7.62" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="C17" gate="G$1" pin="2"/>
-<wire x1="7.62" y1="139.7" x2="7.62" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="C18" gate="G$1" pin="2"/>
-<wire x1="7.62" y1="137.16" x2="7.62" y2="139.7" width="0.1524" layer="91"/>
-<junction x="7.62" y="139.7"/>
 </segment>
 </net>
 </nets>
