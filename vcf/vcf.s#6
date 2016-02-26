@@ -14226,6 +14226,12 @@ Source: 3M</description>
 <pinref part="C19" gate="G$1" pin="2"/>
 <wire x1="-40.64" y1="142.24" x2="-40.64" y2="139.7" width="0.1524" layer="91"/>
 <junction x="-40.64" y="139.7"/>
+<wire x1="0" y1="139.7" x2="7.62" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="C17" gate="G$1" pin="2"/>
+<wire x1="7.62" y1="139.7" x2="7.62" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="C18" gate="G$1" pin="2"/>
+<wire x1="7.62" y1="137.16" x2="7.62" y2="139.7" width="0.1524" layer="91"/>
+<junction x="7.62" y="139.7"/>
 </segment>
 <segment>
 <pinref part="Q" gate="G$1" pin="E"/>
@@ -14316,6 +14322,7 @@ Source: 3M</description>
 <pinref part="C17" gate="G$1" pin="1"/>
 <wire x1="7.62" y1="152.4" x2="7.62" y2="149.86" width="0.1524" layer="91"/>
 <junction x="-30.48" y="152.4"/>
+<junction x="0" y="152.4"/>
 </segment>
 <segment>
 <pinref part="IC4" gate="A" pin="V+"/>
@@ -14379,6 +14386,8 @@ Source: 3M</description>
 <wire x1="7.62" y1="129.54" x2="7.62" y2="127" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="127" x2="0" y2="127" width="0.1524" layer="91"/>
 <junction x="-30.48" y="127"/>
+<junction x="0" y="127"/>
+<junction x="0" y="127"/>
 </segment>
 <segment>
 <pinref part="IC4" gate="A" pin="V-"/>
@@ -14637,6 +14646,7 @@ Source: 3M</description>
 <wire x1="111.76" y1="109.22" x2="109.22" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="109.22" x2="109.22" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="IC4" gate="C" pin="-IN"/>
+<junction x="109.22" y="99.06"/>
 </segment>
 </net>
 <net name="N$47" class="0">
@@ -14974,16 +14984,6 @@ Source: 3M</description>
 <pinref part="R44" gate="G$1" pin="2"/>
 <wire x1="-58.42" y1="-12.7" x2="-60.96" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="-58.42" y1="-30.48" x2="-58.42" y2="-12.7" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$65" class="0">
-<segment>
-<wire x1="0" y1="139.7" x2="7.62" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="C17" gate="G$1" pin="2"/>
-<wire x1="7.62" y1="139.7" x2="7.62" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="C18" gate="G$1" pin="2"/>
-<wire x1="7.62" y1="137.16" x2="7.62" y2="139.7" width="0.1524" layer="91"/>
-<junction x="7.62" y="139.7"/>
 </segment>
 </net>
 </nets>
