@@ -13581,6 +13581,8 @@ Source: 3M</description>
 <text x="-137.16" y="233.68" size="1.778" layer="91">Make sure the buffers don't share packages with the instrumentation amps.</text>
 <text x="-137.16" y="228.6" size="1.778" layer="91">Buffers have to be fet input.  Probably just make these TL084</text>
 <text x="-137.16" y="223.52" size="1.778" layer="91">coupling between IC5A and IC5D might be a conceern</text>
+<text x="2.54" y="208.28" size="3.81" layer="91">Double check this polarity</text>
+<text x="58.42" y="-35.56" size="3.81" layer="91">Double check this polarity</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="35.56" y="38.1"/>
