@@ -13472,7 +13472,7 @@ Source: 3M</description>
 <part name="R14" library="dan" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="R15" library="dan" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="GND5" library="dan" deviceset="GND" device=""/>
-<part name="R16" library="dan" deviceset="R-US_" device="R0603" value="10k"/>
+<part name="R16" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="Q" library="dan" deviceset="US-EVU" device="F2J" value="10K"/>
 <part name="R18" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="R19" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
@@ -13485,7 +13485,7 @@ Source: 3M</description>
 <part name="GND8" library="dan" deviceset="GND" device=""/>
 <part name="R22" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="GND9" library="dan" deviceset="GND" device=""/>
-<part name="R23" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
+<part name="R23" library="dan" deviceset="R-US_" device="R0603" value="100k"/>
 <part name="R24" library="dan" deviceset="R-US_" device="R0603" value="1.2k"/>
 <part name="R25" library="dan" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="R26" library="dan" deviceset="R-US_" device="R0603" value="10k"/>
@@ -13576,6 +13576,9 @@ Source: 3M</description>
 <part name="R46" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="R47" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="R48" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
+<part name="R49" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
+<part name="P+11" library="dan" deviceset="+12V" device=""/>
+<part name="R50" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
 </parts>
 <sheets>
 <sheet>
@@ -13585,6 +13588,12 @@ Source: 3M</description>
 <text x="-137.16" y="223.52" size="1.778" layer="91">coupling between IC5A and IC5D might be a conceern</text>
 <text x="2.54" y="208.28" size="3.81" layer="91">Double check this polarity</text>
 <text x="58.42" y="-35.56" size="3.81" layer="91">Double check this polarity</text>
+<text x="-137.16" y="-60.96" size="1.778" layer="91">Move the buffers after the pots</text>
+<text x="-137.16" y="-33.02" size="1.778" layer="91">Move the buffers after the pots</text>
+<text x="-71.12" y="-5.08" size="1.778" layer="91">Freq pot polarity is wrong</text>
+<text x="-68.58" y="-60.96" size="1.778" layer="91">THis is really far away from the current pair</text>
+<text x="-86.36" y="-63.5" size="1.778" layer="91">Changed this to 50k, but it can be made small by moving them buffers</text>
+<text x="-22.86" y="66.04" size="1.778" layer="91">This was a big screwup</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="35.56" y="38.1"/>
@@ -13605,7 +13614,7 @@ Source: 3M</description>
 <instance part="R2" gate="G$1" x="20.32" y="193.04" rot="R90"/>
 <instance part="R3" gate="G$1" x="20.32" y="142.24" rot="R90"/>
 <instance part="R4" gate="G$1" x="20.32" y="124.46" rot="R90"/>
-<instance part="R5" gate="G$1" x="12.7" y="86.36"/>
+<instance part="R5" gate="G$1" x="12.7" y="55.88"/>
 <instance part="R6" gate="G$1" x="20.32" y="17.78" rot="R90"/>
 <instance part="GND1" gate="1" x="20.32" y="5.08"/>
 <instance part="C6" gate="G$1" x="7.62" y="17.78"/>
@@ -13693,7 +13702,7 @@ Source: 3M</description>
 <instance part="LP" gate="G$1" x="167.64" y="198.12" rot="MR0"/>
 <instance part="GND20" gate="1" x="208.28" y="73.66"/>
 <instance part="GND21" gate="1" x="149.86" y="200.66"/>
-<instance part="FREQ" gate="G$1" x="-78.74" y="-15.24"/>
+<instance part="FREQ" gate="G$1" x="-78.74" y="-15.24" rot="MR180"/>
 <instance part="P-7" gate="1" x="-78.74" y="-40.64"/>
 <instance part="P+9" gate="1" x="-78.74" y="10.16"/>
 <instance part="R44" gate="G$1" x="-66.04" y="-15.24"/>
@@ -13769,6 +13778,9 @@ Source: 3M</description>
 <instance part="R46" gate="G$1" x="147.32" y="193.04" rot="R180"/>
 <instance part="R47" gate="G$1" x="-78.74" y="0" rot="R90"/>
 <instance part="R48" gate="G$1" x="-78.74" y="-30.48" rot="R90"/>
+<instance part="R49" gate="G$1" x="20.32" y="76.2" rot="R90"/>
+<instance part="P+11" gate="1" x="-10.16" y="12.7"/>
+<instance part="R50" gate="G$1" x="-2.54" y="17.78" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -13957,29 +13969,20 @@ Source: 3M</description>
 <pinref part="Q4" gate="G$1" pin="B"/>
 <wire x1="55.88" y1="86.36" x2="33.02" y2="86.36" width="0.1524" layer="91"/>
 <junction x="33.02" y="86.36"/>
-<pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="20.32" y1="22.86" x2="20.32" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="20.32" y1="25.4" x2="20.32" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="86.36" x2="17.78" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="7.62" y1="20.32" x2="7.62" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="25.4" x2="20.32" y2="25.4" width="0.1524" layer="91"/>
-<junction x="20.32" y="25.4"/>
+<pinref part="R49" gate="G$1" pin="2"/>
+<wire x1="20.32" y1="81.28" x2="20.32" y2="86.36" width="0.1524" layer="91"/>
 <junction x="20.32" y="86.36"/>
-<pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="25.4" y1="25.4" x2="20.32" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="B"/>
 <wire x1="33.02" y1="38.1" x2="5.08" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="38.1" x2="5.08" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="5.08" y1="86.36" x2="7.62" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="+"/>
-<wire x1="0" y1="38.1" x2="5.08" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="5.08" y1="38.1" x2="0" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="55.88" x2="5.08" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="55.88" x2="5.08" y2="38.1" width="0.1524" layer="91"/>
 <junction x="5.08" y="38.1"/>
 </segment>
 </net>
@@ -14380,6 +14383,12 @@ Source: 3M</description>
 <pinref part="R47" gate="G$1" pin="2"/>
 <pinref part="P+9" gate="1" pin="+12V"/>
 <wire x1="-78.74" y1="7.62" x2="-78.74" y2="5.08" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+11" gate="1" pin="+12V"/>
+<wire x1="-10.16" y1="10.16" x2="-2.54" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="R50" gate="G$1" pin="1"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="-12V" class="0">
@@ -14829,13 +14838,6 @@ Source: 3M</description>
 <junction x="198.12" y="66.04"/>
 </segment>
 </net>
-<net name="N$60" class="0">
-<segment>
-<pinref part="FREQ" gate="G$1" pin="S"/>
-<pinref part="R44" gate="G$1" pin="1"/>
-<wire x1="-73.66" y1="-15.24" x2="-71.12" y2="-15.24" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$62" class="0">
 <segment>
 <wire x1="-88.9" y1="5.08" x2="-88.9" y2="20.32" width="0.1524" layer="91"/>
@@ -15047,25 +15049,54 @@ Source: 3M</description>
 <wire x1="152.4" y1="193.04" x2="157.48" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$65" class="0">
-<segment>
-<pinref part="FREQ" gate="G$1" pin="A"/>
-<pinref part="R48" gate="G$1" pin="2"/>
-<wire x1="-78.74" y1="-25.4" x2="-78.74" y2="-22.86" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$66" class="0">
-<segment>
-<pinref part="FREQ" gate="G$1" pin="E"/>
-<pinref part="R47" gate="G$1" pin="1"/>
-<wire x1="-78.74" y1="-5.08" x2="-78.74" y2="-7.62" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$32" class="0">
 <segment>
 <pinref part="Q" gate="G$1" pin="S"/>
 <pinref part="C7" gate="G$1" pin="-"/>
 <wire x1="134.62" y1="38.1" x2="86.36" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$68" class="0">
+<segment>
+<pinref part="R49" gate="G$1" pin="1"/>
+<wire x1="20.32" y1="71.12" x2="20.32" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="20.32" y1="55.88" x2="17.78" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="20.32" y1="22.86" x2="20.32" y2="25.4" width="0.1524" layer="91"/>
+<junction x="20.32" y="25.4"/>
+<pinref part="R11" gate="G$1" pin="2"/>
+<wire x1="25.4" y1="25.4" x2="20.32" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="25.4" x2="20.32" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="C6" gate="G$1" pin="1"/>
+<wire x1="7.62" y1="20.32" x2="7.62" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="55.88" x2="20.32" y2="25.4" width="0.1524" layer="91"/>
+<junction x="20.32" y="55.88"/>
+<pinref part="R50" gate="G$1" pin="2"/>
+<wire x1="-2.54" y1="22.86" x2="-2.54" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="25.4" x2="7.62" y2="25.4" width="0.1524" layer="91"/>
+<junction x="7.62" y="25.4"/>
+</segment>
+</net>
+<net name="N$60" class="0">
+<segment>
+<pinref part="FREQ" gate="G$1" pin="A"/>
+<pinref part="R47" gate="G$1" pin="1"/>
+<wire x1="-78.74" y1="-7.62" x2="-78.74" y2="-5.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$65" class="0">
+<segment>
+<pinref part="FREQ" gate="G$1" pin="S"/>
+<pinref part="R44" gate="G$1" pin="1"/>
+<wire x1="-73.66" y1="-15.24" x2="-71.12" y2="-15.24" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$66" class="0">
+<segment>
+<pinref part="FREQ" gate="G$1" pin="E"/>
+<pinref part="R48" gate="G$1" pin="2"/>
+<wire x1="-78.74" y1="-22.86" x2="-78.74" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
