@@ -11,7 +11,7 @@ UsedLibrary="/home/zod/eagle/dan.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="65 24 714 739"
+Loc="705 14 1354 729"
 State=2
 Number=0
 
