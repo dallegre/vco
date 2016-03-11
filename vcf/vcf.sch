@@ -13464,7 +13464,7 @@ Source: 3M</description>
 <part name="GND3" library="dan" deviceset="GND" device=""/>
 <part name="R9" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="GND4" library="dan" deviceset="GND" device=""/>
-<part name="R10" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
+<part name="R10" library="dan" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="R11" library="dan" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="P+3" library="dan" deviceset="+12V" device=""/>
 <part name="R12" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
@@ -13487,8 +13487,8 @@ Source: 3M</description>
 <part name="GND9" library="dan" deviceset="GND" device=""/>
 <part name="R23" library="dan" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="R24" library="dan" deviceset="R-US_" device="R0603" value="1.2k"/>
-<part name="R25" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
-<part name="R26" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
+<part name="R25" library="dan" deviceset="R-US_" device="R0603" value="2.2k"/>
+<part name="R26" library="dan" deviceset="R-US_" device="R0603" value="4.7k"/>
 <part name="MODAMT" library="dan" deviceset="US-EVU" device="F2J" value="10K"/>
 <part name="GND11" library="dan" deviceset="GND" device=""/>
 <part name="SCALE" library="dan" deviceset="TRIM_US-" device="S64W" value="100K"/>
@@ -13527,7 +13527,7 @@ Source: 3M</description>
 <part name="FREQ" library="dan" deviceset="US-EVU" device="F2J" value="10K"/>
 <part name="P-7" library="dan" deviceset="-12V" device=""/>
 <part name="P+9" library="dan" deviceset="+12V" device=""/>
-<part name="R44" library="dan" deviceset="R-US_" device="R0603" value="4.7k"/>
+<part name="R44" library="dan" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="GAIN1" library="dan" deviceset="US-EVU" device="F2J" value="10K"/>
 <part name="C5" library="dan" deviceset="CPOL-US" device="E2.5-6" value="4.7u"/>
 <part name="C7" library="dan" deviceset="CPOL-US" device="E2.5-6" value="4.7u"/>
@@ -13569,8 +13569,8 @@ Source: 3M</description>
 <part name="P-5" library="dan" deviceset="-12V" device=""/>
 <part name="R45" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="R46" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
-<part name="R47" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
-<part name="R48" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
+<part name="R47" library="dan" deviceset="R-US_" device="R0603" value="100k"/>
+<part name="R48" library="dan" deviceset="R-US_" device="R0603" value="100k"/>
 <part name="R49" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="P+11" library="dan" deviceset="+12V" device=""/>
 <part name="R50" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
@@ -13591,8 +13591,7 @@ Source: 3M</description>
 <text x="-137.16" y="233.68" size="1.778" layer="91">Make sure the buffers don't share packages with the instrumentation amps.</text>
 <text x="-137.16" y="228.6" size="1.778" layer="91">Buffers have to be fet input.  Probably just make these TL084</text>
 <text x="-137.16" y="223.52" size="1.778" layer="91">coupling between IC5A and IC5D might be a conceern</text>
-<text x="-68.58" y="-60.96" size="1.778" layer="91">THis is really far away from the current pair</text>
-<text x="-22.86" y="66.04" size="1.778" layer="91">This was a big screwup</text>
+<text x="-73.66" y="-2.54" size="1.778" layer="91">100k might be a good value for these</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="35.56" y="38.1"/>
