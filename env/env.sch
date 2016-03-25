@@ -6450,6 +6450,7 @@ Source: 3M</description>
 <text x="5.08" y="-53.34" size="1.778" layer="91">Is this right?</text>
 <text x="101.6" y="76.2" size="1.778" layer="91">Is this right?</text>
 <text x="-38.1" y="20.32" size="1.778" layer="91">Check these</text>
+<text x="-48.26" y="121.92" size="1.778" layer="91">Add LEDs!!!!</text>
 </plain>
 <instances>
 <instance part="IC1" gate="A" x="81.28" y="101.6" rot="R270"/>
