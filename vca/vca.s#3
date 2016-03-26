@@ -5366,6 +5366,110 @@ Source: Panasonic</description>
 <rectangle x1="-0.425" y1="-7.325" x2="0.425" y2="-6.5" layer="51"/>
 <rectangle x1="2.075" y1="-7.325" x2="2.925" y2="-6.5" layer="51"/>
 </package>
+<package name="PAK100/2500-16">
+<description>&lt;b&gt;3M (TM) Pak 100 4-Wall Header&lt;/b&gt; Straight&lt;p&gt;
+Source: 3M</description>
+<wire x1="-13.81" y1="4.2" x2="-8.233" y2="4.2" width="0.2032" layer="21"/>
+<wire x1="-8.233" y1="4.2" x2="-4.467" y2="4.2" width="0.2032" layer="21"/>
+<wire x1="-4.467" y1="4.2" x2="4.467" y2="4.2" width="0.2032" layer="21"/>
+<wire x1="4.467" y1="4.2" x2="8.233" y2="4.2" width="0.2032" layer="21"/>
+<wire x1="8.233" y1="4.2" x2="13.81" y2="4.2" width="0.2032" layer="21"/>
+<wire x1="13.81" y1="4.2" x2="13.81" y2="-4.2" width="0.2032" layer="21"/>
+<wire x1="13.81" y1="-4.2" x2="8.478" y2="-4.2" width="0.2032" layer="21"/>
+<wire x1="8.478" y1="-4.2" x2="8.478" y2="-3.9" width="0.2032" layer="21"/>
+<wire x1="8.478" y1="-3.9" x2="6.999" y2="-3.9" width="0.2032" layer="21"/>
+<wire x1="6.999" y1="-3.9" x2="6.999" y2="-4.2" width="0.2032" layer="21"/>
+<wire x1="6.999" y1="-4.2" x2="1.883" y2="-4.2" width="0.2032" layer="21"/>
+<wire x1="1.883" y1="-4.2" x2="1.883" y2="-2.65" width="0.2032" layer="21"/>
+<wire x1="1.883" y1="-2.65" x2="-1.883" y2="-2.65" width="0.2032" layer="21"/>
+<wire x1="-1.883" y1="-2.65" x2="-1.883" y2="-4.2" width="0.2032" layer="21"/>
+<wire x1="1.883" y1="-4.2" x2="-1.883" y2="-4.2" width="0.2032" layer="21"/>
+<wire x1="-1.883" y1="-4.2" x2="-6.762" y2="-4.2" width="0.2032" layer="21"/>
+<wire x1="-8.241" y1="-4.2" x2="-13.81" y2="-4.2" width="0.2032" layer="21"/>
+<wire x1="-13.81" y1="-4.2" x2="-13.81" y2="4.2" width="0.2032" layer="21"/>
+<wire x1="-12.685" y1="3.275" x2="-8.24" y2="3.275" width="0.2032" layer="21"/>
+<wire x1="-4.465" y1="3.275" x2="4.465" y2="3.275" width="0.2032" layer="21"/>
+<wire x1="8.24" y1="3.275" x2="12.685" y2="3.275" width="0.2032" layer="21"/>
+<wire x1="12.685" y1="3.275" x2="12.685" y2="-3.275" width="0.2032" layer="21"/>
+<wire x1="12.685" y1="-3.275" x2="1.883" y2="-3.275" width="0.2032" layer="21"/>
+<wire x1="-1.883" y1="-3.275" x2="-12.685" y2="-3.275" width="0.2032" layer="21"/>
+<wire x1="-12.685" y1="-3.275" x2="-12.685" y2="3.275" width="0.2032" layer="21"/>
+<wire x1="-6.762" y1="-4.2" x2="-6.762" y2="-3.9" width="0.2032" layer="21"/>
+<wire x1="-6.762" y1="-3.9" x2="-8.241" y2="-3.9" width="0.2032" layer="21"/>
+<wire x1="-8.241" y1="-3.9" x2="-8.241" y2="-4.2" width="0.2032" layer="21"/>
+<wire x1="-8.233" y1="4.2" x2="-8.233" y2="2.65" width="0.2032" layer="21"/>
+<wire x1="-8.233" y1="2.65" x2="-4.467" y2="2.65" width="0.2032" layer="21"/>
+<wire x1="-4.467" y1="2.65" x2="-4.467" y2="4.2" width="0.2032" layer="21"/>
+<wire x1="4.467" y1="4.2" x2="4.467" y2="2.65" width="0.2032" layer="21"/>
+<wire x1="4.467" y1="2.65" x2="8.233" y2="2.65" width="0.2032" layer="21"/>
+<wire x1="8.233" y1="2.65" x2="8.233" y2="4.2" width="0.2032" layer="21"/>
+<pad name="1" x="-8.89" y="-1.27" drill="1" diameter="1.4224"/>
+<pad name="2" x="-8.89" y="1.27" drill="1" diameter="1.4224"/>
+<pad name="3" x="-6.35" y="-1.27" drill="1" diameter="1.4224"/>
+<pad name="4" x="-6.35" y="1.27" drill="1" diameter="1.4224"/>
+<pad name="5" x="-3.81" y="-1.27" drill="1" diameter="1.4224"/>
+<pad name="6" x="-3.81" y="1.27" drill="1" diameter="1.4224"/>
+<pad name="7" x="-1.27" y="-1.27" drill="1" diameter="1.4224"/>
+<pad name="8" x="-1.27" y="1.27" drill="1" diameter="1.4224"/>
+<pad name="9" x="1.27" y="-1.27" drill="1" diameter="1.4224"/>
+<pad name="10" x="1.27" y="1.27" drill="1" diameter="1.4224"/>
+<pad name="11" x="3.81" y="-1.27" drill="1" diameter="1.4224"/>
+<pad name="12" x="3.81" y="1.27" drill="1" diameter="1.4224"/>
+<pad name="13" x="6.35" y="-1.27" drill="1" diameter="1.4224"/>
+<pad name="14" x="6.35" y="1.27" drill="1" diameter="1.4224"/>
+<pad name="15" x="8.89" y="-1.27" drill="1" diameter="1.4224"/>
+<pad name="16" x="8.89" y="1.27" drill="1" diameter="1.4224"/>
+<text x="-13.97" y="4.572" size="1.27" layer="25">&gt;NAME</text>
+<text x="-6.35" y="4.572" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="PAK100/2500-5-16">
+<description>&lt;b&gt;3M (TM) Pak 100 4-Wall Header&lt;/b&gt; Right Angle&lt;p&gt;
+Source: 3M</description>
+<wire x1="13.81" y1="1.875" x2="13.81" y2="11.075" width="0.2032" layer="21"/>
+<wire x1="13.81" y1="11.075" x2="8.478" y2="11.075" width="0.2032" layer="21"/>
+<wire x1="6.999" y1="11.075" x2="8.478" y2="11.075" width="0.2032" layer="21"/>
+<wire x1="8.478" y1="11.075" x2="8.478" y2="10.105" width="0.2032" layer="21"/>
+<wire x1="8.478" y1="10.105" x2="6.999" y2="10.105" width="0.2032" layer="21"/>
+<wire x1="6.999" y1="10.105" x2="6.999" y2="11.075" width="0.2032" layer="21"/>
+<wire x1="6.999" y1="11.075" x2="1.883" y2="11.075" width="0.2032" layer="21"/>
+<wire x1="1.883" y1="11.075" x2="1.883" y2="4.01" width="0.2032" layer="21"/>
+<wire x1="1.883" y1="4.01" x2="-1.883" y2="4.01" width="0.2032" layer="21"/>
+<wire x1="-1.883" y1="4.01" x2="-1.883" y2="11.075" width="0.2032" layer="21"/>
+<wire x1="1.883" y1="11.075" x2="-1.883" y2="11.075" width="0.2032" layer="21"/>
+<wire x1="-1.883" y1="11.075" x2="-4.222" y2="11.075" width="0.2032" layer="21"/>
+<wire x1="-5.701" y1="11.075" x2="-4.222" y2="11.075" width="0.2032" layer="21"/>
+<wire x1="-5.701" y1="11.075" x2="-13.81" y2="11.075" width="0.2032" layer="21"/>
+<wire x1="-13.81" y1="11.075" x2="-13.81" y2="1.875" width="0.2032" layer="21"/>
+<wire x1="-4.222" y1="11.075" x2="-4.222" y2="10.105" width="0.2032" layer="21"/>
+<wire x1="-4.222" y1="10.105" x2="-5.701" y2="10.105" width="0.2032" layer="21"/>
+<wire x1="-5.701" y1="10.105" x2="-5.701" y2="11.075" width="0.2032" layer="21"/>
+<wire x1="-10.266" y1="1.875" x2="-13.81" y2="1.875" width="0.2032" layer="21"/>
+<wire x1="10.249" y1="1.875" x2="-10.262" y2="1.875" width="0.2032" layer="51"/>
+<wire x1="13.81" y1="1.875" x2="10.253" y2="1.875" width="0.2032" layer="21"/>
+<pad name="1" x="-8.89" y="-1.27" drill="1" diameter="1.4224"/>
+<pad name="2" x="-8.89" y="1.27" drill="1" diameter="1.4224"/>
+<pad name="3" x="-6.35" y="-1.27" drill="1" diameter="1.4224"/>
+<pad name="4" x="-6.35" y="1.27" drill="1" diameter="1.4224"/>
+<pad name="5" x="-3.81" y="-1.27" drill="1" diameter="1.4224"/>
+<pad name="6" x="-3.81" y="1.27" drill="1" diameter="1.4224"/>
+<pad name="7" x="-1.27" y="-1.27" drill="1" diameter="1.4224"/>
+<pad name="8" x="-1.27" y="1.27" drill="1" diameter="1.4224"/>
+<pad name="9" x="1.27" y="-1.27" drill="1" diameter="1.4224"/>
+<pad name="10" x="1.27" y="1.27" drill="1" diameter="1.4224"/>
+<pad name="11" x="3.81" y="-1.27" drill="1" diameter="1.4224"/>
+<pad name="12" x="3.81" y="1.27" drill="1" diameter="1.4224"/>
+<pad name="13" x="6.35" y="-1.27" drill="1" diameter="1.4224"/>
+<pad name="14" x="6.35" y="1.27" drill="1" diameter="1.4224"/>
+<pad name="15" x="8.89" y="-1.27" drill="1" diameter="1.4224"/>
+<pad name="16" x="8.89" y="1.27" drill="1" diameter="1.4224"/>
+<text x="-13.97" y="-3.81" size="1.27" layer="25">&gt;NAME</text>
+<text x="-6.35" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.2032" layer="21">
+<vertex x="-10.17" y="10.945"/>
+<vertex x="-7.62" y="10.945"/>
+<vertex x="-8.895" y="8.37"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="NPN">
@@ -5550,6 +5654,17 @@ Source: Panasonic</description>
 <text x="1.27" y="-4.445" size="0.8128" layer="93" rot="R90">V-</text>
 <pin name="V+" x="0" y="7.62" visible="pad" length="middle" direction="pwr" rot="R270"/>
 <pin name="V-" x="0" y="-7.62" visible="pad" length="middle" direction="pwr" rot="R90"/>
+</symbol>
+<symbol name="PINV">
+<text x="-1.27" y="0.889" size="1.778" layer="95" rot="R180">&gt;NAME</text>
+<text x="-3.81" y="2.667" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="0" y1="-0.254" x2="2.794" y2="0.254" layer="94"/>
+<pin name="KL" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="PIN">
+<text x="-1.27" y="0.889" size="1.778" layer="95" rot="R180">&gt;NAME</text>
+<rectangle x1="0" y1="-0.254" x2="2.794" y2="0.254" layer="94"/>
+<pin name="KL" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -7916,6 +8031,86 @@ Source: Panasonic</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="2516-" prefix="X">
+<description>&lt;b&gt;3M (TM) Pak 100 4-Wall Header&lt;/b&gt;&lt;p&gt;
+Source: 3M</description>
+<gates>
+<gate name="-1" symbol="PINV" x="0" y="0" addlevel="always"/>
+<gate name="-2" symbol="PIN" x="0" y="-2.54" addlevel="always"/>
+<gate name="-3" symbol="PIN" x="0" y="-5.08" addlevel="always"/>
+<gate name="-4" symbol="PIN" x="0" y="-7.62" addlevel="always"/>
+<gate name="-5" symbol="PIN" x="0" y="-10.16" addlevel="always"/>
+<gate name="-6" symbol="PIN" x="0" y="-12.7" addlevel="always"/>
+<gate name="-7" symbol="PIN" x="0" y="-15.24" addlevel="always"/>
+<gate name="-8" symbol="PIN" x="0" y="-17.78" addlevel="always"/>
+<gate name="-9" symbol="PIN" x="0" y="-20.32" addlevel="always"/>
+<gate name="-10" symbol="PIN" x="0" y="-22.86" addlevel="always"/>
+<gate name="-11" symbol="PIN" x="0" y="-25.4" addlevel="always"/>
+<gate name="-12" symbol="PIN" x="0" y="-27.94" addlevel="always"/>
+<gate name="-13" symbol="PIN" x="0" y="-30.48" addlevel="always"/>
+<gate name="-14" symbol="PIN" x="0" y="-33.02" addlevel="always"/>
+<gate name="-15" symbol="PIN" x="0" y="-35.56" addlevel="always"/>
+<gate name="-16" symbol="PIN" x="0" y="-38.1" addlevel="always"/>
+</gates>
+<devices>
+<device name="" package="PAK100/2500-16">
+<connects>
+<connect gate="-1" pin="KL" pad="1"/>
+<connect gate="-10" pin="KL" pad="10"/>
+<connect gate="-11" pin="KL" pad="11"/>
+<connect gate="-12" pin="KL" pad="12"/>
+<connect gate="-13" pin="KL" pad="13"/>
+<connect gate="-14" pin="KL" pad="14"/>
+<connect gate="-15" pin="KL" pad="15"/>
+<connect gate="-16" pin="KL" pad="16"/>
+<connect gate="-2" pin="KL" pad="2"/>
+<connect gate="-3" pin="KL" pad="3"/>
+<connect gate="-4" pin="KL" pad="4"/>
+<connect gate="-5" pin="KL" pad="5"/>
+<connect gate="-6" pin="KL" pad="6"/>
+<connect gate="-7" pin="KL" pad="7"/>
+<connect gate="-8" pin="KL" pad="8"/>
+<connect gate="-9" pin="KL" pad="9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="5" package="PAK100/2500-5-16">
+<connects>
+<connect gate="-1" pin="KL" pad="1"/>
+<connect gate="-10" pin="KL" pad="10"/>
+<connect gate="-11" pin="KL" pad="11"/>
+<connect gate="-12" pin="KL" pad="12"/>
+<connect gate="-13" pin="KL" pad="13"/>
+<connect gate="-14" pin="KL" pad="14"/>
+<connect gate="-15" pin="KL" pad="15"/>
+<connect gate="-16" pin="KL" pad="16"/>
+<connect gate="-2" pin="KL" pad="2"/>
+<connect gate="-3" pin="KL" pad="3"/>
+<connect gate="-4" pin="KL" pad="4"/>
+<connect gate="-5" pin="KL" pad="5"/>
+<connect gate="-6" pin="KL" pad="6"/>
+<connect gate="-7" pin="KL" pad="7"/>
+<connect gate="-8" pin="KL" pad="8"/>
+<connect gate="-9" pin="KL" pad="9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="D2516-5002-AR" constant="no"/>
+<attribute name="OC_FARNELL" value="9838376" constant="no"/>
+<attribute name="OC_NEWARK" value="12P7055" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -7949,7 +8144,7 @@ Source: Panasonic</description>
 <part name="R9" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="R10" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="R11" library="dan" deviceset="R-US_" device="R0603" value="10k"/>
-<part name="U$3" library="dan" deviceset="PJ301BM" device=""/>
+<part name="IN" library="dan" deviceset="PJ301BM" device=""/>
 <part name="GND3" library="dan" deviceset="GND" device=""/>
 <part name="DCOS" library="dan" deviceset="TRIM_US-" device="RJ9W" value="10k"/>
 <part name="P+3" library="dan" deviceset="+12V" device=""/>
@@ -7962,7 +8157,7 @@ Source: Panasonic</description>
 <part name="R15" library="dan" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="GND4" library="dan" deviceset="GND" device=""/>
 <part name="GND5" library="dan" deviceset="GND" device=""/>
-<part name="U$4" library="dan" deviceset="PJ301BM" device=""/>
+<part name="OUT" library="dan" deviceset="PJ301BM" device=""/>
 <part name="GND6" library="dan" deviceset="GND" device=""/>
 <part name="GND7" library="dan" deviceset="GND" device=""/>
 <part name="R16" library="dan" deviceset="R-US_" device="R0603" value="10k"/>
@@ -7981,10 +8176,14 @@ Source: Panasonic</description>
 <part name="GND9" library="dan" deviceset="GND" device=""/>
 <part name="R21" library="dan" deviceset="R-US_" device="R0603" value="100k"/>
 <part name="R22" library="dan" deviceset="R-US_" device="R0603" value="100k"/>
-<part name="U$5" library="dan" deviceset="PJ301BM" device=""/>
+<part name="CVIN" library="dan" deviceset="PJ301BM" device=""/>
 <part name="GND10" library="dan" deviceset="GND" device=""/>
 <part name="CVA" library="dan" deviceset="US-EVU" device="F2J"/>
 <part name="GND11" library="dan" deviceset="GND" device=""/>
+<part name="X1" library="dan" deviceset="2516-" device=""/>
+<part name="P+8" library="dan" deviceset="+12V" device=""/>
+<part name="P-5" library="dan" deviceset="-12V" device=""/>
+<part name="GND12" library="dan" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8004,7 +8203,7 @@ Source: Panasonic</description>
 <instance part="R6" gate="G$1" x="17.78" y="12.7" rot="R90"/>
 <instance part="P+1" gate="1" x="17.78" y="22.86"/>
 <instance part="IC1" gate="A" x="78.74" y="-7.62"/>
-<instance part="IC1" gate="B" x="-66.04" y="0"/>
+<instance part="IC1" gate="B" x="-66.04" y="0" rot="MR180"/>
 <instance part="IC1" gate="C" x="2.54" y="-25.4" rot="MR180"/>
 <instance part="IC1" gate="D" x="-27.94" y="-2.54" rot="MR180"/>
 <instance part="P+2" gate="1" x="76.2" y="5.08"/>
@@ -8017,7 +8216,7 @@ Source: Panasonic</description>
 <instance part="R9" gate="G$1" x="2.54" y="-2.54" rot="R180"/>
 <instance part="R10" gate="G$1" x="-27.94" y="7.62" rot="R180"/>
 <instance part="R11" gate="G$1" x="-45.72" y="0" rot="R180"/>
-<instance part="U$3" gate="G$1" x="-12.7" y="50.8"/>
+<instance part="IN" gate="G$1" x="-12.7" y="50.8"/>
 <instance part="GND3" gate="1" x="5.08" y="50.8"/>
 <instance part="DCOS" gate="G$1" x="30.48" y="73.66" rot="R90"/>
 <instance part="P+3" gate="1" x="30.48" y="83.82"/>
@@ -8030,7 +8229,7 @@ Source: Panasonic</description>
 <instance part="R15" gate="G$1" x="58.42" y="58.42"/>
 <instance part="GND4" gate="1" x="55.88" y="73.66"/>
 <instance part="GND5" gate="1" x="45.72" y="40.64"/>
-<instance part="U$4" gate="G$1" x="109.22" y="50.8" rot="R180"/>
+<instance part="OUT" gate="G$1" x="109.22" y="50.8" rot="R180"/>
 <instance part="GND6" gate="1" x="96.52" y="38.1"/>
 <instance part="GND7" gate="1" x="-76.2" y="-7.62"/>
 <instance part="R16" gate="G$1" x="-68.58" y="10.16" rot="R180"/>
@@ -8051,10 +8250,29 @@ Source: Panasonic</description>
 <instance part="GND9" gate="1" x="-53.34" y="63.5"/>
 <instance part="R21" gate="G$1" x="-86.36" y="88.9" rot="R180"/>
 <instance part="R22" gate="G$1" x="-71.12" y="81.28" rot="R180"/>
-<instance part="U$5" gate="G$1" x="-7.62" y="101.6" rot="R180"/>
+<instance part="CVIN" gate="G$1" x="-7.62" y="101.6" rot="R180"/>
 <instance part="GND10" gate="1" x="-22.86" y="88.9"/>
-<instance part="CVA" gate="G$1" x="-35.56" y="99.06" rot="R180"/>
+<instance part="CVA" gate="G$1" x="-35.56" y="99.06" rot="MR0"/>
 <instance part="GND11" gate="1" x="-35.56" y="86.36"/>
+<instance part="X1" gate="-1" x="-127" y="30.48"/>
+<instance part="X1" gate="-2" x="-127" y="27.94"/>
+<instance part="X1" gate="-3" x="-127" y="25.4"/>
+<instance part="X1" gate="-4" x="-127" y="22.86"/>
+<instance part="X1" gate="-5" x="-127" y="20.32"/>
+<instance part="X1" gate="-6" x="-127" y="17.78"/>
+<instance part="X1" gate="-7" x="-127" y="15.24"/>
+<instance part="X1" gate="-8" x="-127" y="12.7"/>
+<instance part="X1" gate="-9" x="-127" y="10.16"/>
+<instance part="X1" gate="-10" x="-127" y="7.62"/>
+<instance part="X1" gate="-11" x="-127" y="5.08"/>
+<instance part="X1" gate="-12" x="-127" y="2.54"/>
+<instance part="X1" gate="-13" x="-127" y="0"/>
+<instance part="X1" gate="-14" x="-127" y="-2.54"/>
+<instance part="X1" gate="-15" x="-127" y="-5.08"/>
+<instance part="X1" gate="-16" x="-127" y="-7.62"/>
+<instance part="P+8" gate="1" x="-114.3" y="12.7"/>
+<instance part="P-5" gate="1" x="-114.3" y="25.4"/>
+<instance part="GND12" gate="1" x="-111.76" y="17.78"/>
 </instances>
 <busses>
 </busses>
@@ -8119,14 +8337,14 @@ Source: Panasonic</description>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="5.08" y1="53.34" x2="5.08" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="P$2"/>
+<pinref part="IN" gate="G$1" pin="P$2"/>
 <wire x1="-2.54" y1="50.8" x2="0" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="0" y1="50.8" x2="0" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="P$4"/>
+<pinref part="IN" gate="G$1" pin="P$4"/>
 <wire x1="0" y1="55.88" x2="0" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="0" y1="58.42" x2="-2.54" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="58.42" x2="0" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="P$1"/>
+<pinref part="IN" gate="G$1" pin="P$1"/>
 <wire x1="0" y1="55.88" x2="-2.54" y2="55.88" width="0.1524" layer="91"/>
 <junction x="0" y="55.88"/>
 <junction x="0" y="58.42"/>
@@ -8145,7 +8363,7 @@ Source: Panasonic</description>
 <wire x1="55.88" y1="78.74" x2="55.88" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="P$2"/>
+<pinref part="OUT" gate="G$1" pin="P$2"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="99.06" y1="50.8" x2="96.52" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="50.8" x2="96.52" y2="45.72" width="0.1524" layer="91"/>
@@ -8154,15 +8372,15 @@ Source: Panasonic</description>
 <wire x1="99.06" y1="45.72" x2="96.52" y2="45.72" width="0.1524" layer="91"/>
 <junction x="96.52" y="43.18"/>
 <junction x="96.52" y="45.72"/>
-<pinref part="U$4" gate="G$1" pin="P$1"/>
-<pinref part="U$4" gate="G$1" pin="P$4"/>
+<pinref part="OUT" gate="G$1" pin="P$1"/>
+<pinref part="OUT" gate="G$1" pin="P$4"/>
 <wire x1="99.06" y1="43.18" x2="96.52" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="B" pin="-IN"/>
-<wire x1="-73.66" y1="-2.54" x2="-76.2" y2="-2.54" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="-76.2" y1="-2.54" x2="-76.2" y2="-5.08" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="B" pin="+IN"/>
+<wire x1="-73.66" y1="-2.54" x2="-76.2" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
@@ -8177,21 +8395,47 @@ Source: Panasonic</description>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="-22.86" y1="91.44" x2="-22.86" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="P$2"/>
+<pinref part="CVIN" gate="G$1" pin="P$2"/>
 <wire x1="-22.86" y1="93.98" x2="-22.86" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="96.52" x2="-22.86" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="101.6" x2="-17.78" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="P$1"/>
+<pinref part="CVIN" gate="G$1" pin="P$1"/>
 <wire x1="-17.78" y1="96.52" x2="-22.86" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="P$4"/>
+<pinref part="CVIN" gate="G$1" pin="P$4"/>
 <wire x1="-17.78" y1="93.98" x2="-22.86" y2="93.98" width="0.1524" layer="91"/>
 <junction x="-22.86" y="93.98"/>
 <junction x="-22.86" y="96.52"/>
 </segment>
 <segment>
+<pinref part="X1" gate="-3" pin="KL"/>
+<wire x1="-121.92" y1="25.4" x2="-119.38" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-119.38" y1="25.4" x2="-119.38" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-6" pin="KL"/>
+<wire x1="-119.38" y1="22.86" x2="-119.38" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="-119.38" y1="20.32" x2="-119.38" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="-119.38" y1="17.78" x2="-121.92" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="-119.38" y1="17.78" x2="-119.38" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-8" pin="KL"/>
+<wire x1="-119.38" y1="15.24" x2="-119.38" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="-119.38" y1="12.7" x2="-121.92" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-7" pin="KL"/>
+<wire x1="-121.92" y1="15.24" x2="-119.38" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-5" pin="KL"/>
+<wire x1="-121.92" y1="20.32" x2="-119.38" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-4" pin="KL"/>
+<wire x1="-121.92" y1="22.86" x2="-119.38" y2="22.86" width="0.1524" layer="91"/>
+<junction x="-119.38" y="22.86"/>
+<junction x="-119.38" y="20.32"/>
+<junction x="-119.38" y="17.78"/>
+<junction x="-119.38" y="15.24"/>
+<pinref part="GND12" gate="1" pin="GND"/>
+<wire x1="-119.38" y1="22.86" x2="-111.76" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="-111.76" y1="22.86" x2="-111.76" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="CVA" gate="G$1" pin="A"/>
 <pinref part="GND11" gate="1" pin="GND"/>
-<pinref part="CVA" gate="G$1" pin="E"/>
-<wire x1="-35.56" y1="88.9" x2="-35.56" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="91.44" x2="-35.56" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -8255,6 +8499,17 @@ Source: Panasonic</description>
 <pinref part="P+7" gate="1" pin="+12V"/>
 <wire x1="-53.34" y1="83.82" x2="-53.34" y2="86.36" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="X1" gate="-10" pin="KL"/>
+<pinref part="P+8" gate="1" pin="+12V"/>
+<wire x1="-121.92" y1="7.62" x2="-119.38" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="-119.38" y1="7.62" x2="-114.3" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="-114.3" y1="7.62" x2="-114.3" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-9" pin="KL"/>
+<wire x1="-121.92" y1="10.16" x2="-119.38" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="-119.38" y1="10.16" x2="-119.38" y2="7.62" width="0.1524" layer="91"/>
+<junction x="-119.38" y="7.62"/>
+</segment>
 </net>
 <net name="N$5" class="0">
 <segment>
@@ -8297,6 +8552,17 @@ Source: Panasonic</description>
 <pinref part="P-4" gate="1" pin="-12V"/>
 <pinref part="IC3" gate="P" pin="V-"/>
 <wire x1="5.08" y1="66.04" x2="5.08" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P-5" gate="1" pin="-12V"/>
+<wire x1="-114.3" y1="27.94" x2="-114.3" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-1" pin="KL"/>
+<wire x1="-114.3" y1="30.48" x2="-119.38" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-2" pin="KL"/>
+<wire x1="-119.38" y1="30.48" x2="-121.92" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="-121.92" y1="27.94" x2="-119.38" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="-119.38" y1="27.94" x2="-119.38" y2="30.48" width="0.1524" layer="91"/>
+<junction x="-119.38" y="30.48"/>
 </segment>
 </net>
 <net name="NEG8" class="0">
@@ -8374,7 +8640,7 @@ Source: Panasonic</description>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="2.54" y1="45.72" x2="-2.54" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="P$3"/>
+<pinref part="IN" gate="G$1" pin="P$3"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -8421,35 +8687,35 @@ Source: Panasonic</description>
 <wire x1="91.44" y1="35.56" x2="91.44" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="OUT"/>
 <wire x1="91.44" y1="55.88" x2="83.82" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="P$3"/>
+<pinref part="OUT" gate="G$1" pin="P$3"/>
 <wire x1="99.06" y1="55.88" x2="91.44" y2="55.88" width="0.1524" layer="91"/>
 <junction x="91.44" y="55.88"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="IC1" gate="B" pin="OUT"/>
 <pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="-58.42" y1="0" x2="-55.88" y2="0" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="-55.88" y1="0" x2="-50.8" y2="0" width="0.1524" layer="91"/>
 <wire x1="-63.5" y1="10.16" x2="-55.88" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="-55.88" y1="10.16" x2="-55.88" y2="0" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="B" pin="OUT"/>
+<wire x1="-58.42" y1="0" x2="-55.88" y2="0" width="0.1524" layer="91"/>
 <junction x="-55.88" y="0"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
 <pinref part="R18" gate="G$1" pin="1"/>
-<pinref part="IC1" gate="B" pin="+IN"/>
 <wire x1="-78.74" y1="2.54" x2="-76.2" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="-76.2" y1="2.54" x2="-73.66" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="-76.2" y1="2.54" x2="-76.2" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="2"/>
 <wire x1="-76.2" y1="10.16" x2="-73.66" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="R17" gate="G$1" pin="1"/>
 <wire x1="-76.2" y1="10.16" x2="-78.74" y2="10.16" width="0.1524" layer="91"/>
 <junction x="-76.2" y="10.16"/>
+<pinref part="IC1" gate="B" pin="-IN"/>
+<wire x1="-73.66" y1="2.54" x2="-76.2" y2="2.54" width="0.1524" layer="91"/>
 <junction x="-76.2" y="2.54"/>
 </segment>
 </net>
@@ -8533,8 +8799,8 @@ Source: Panasonic</description>
 </net>
 <net name="N$26" class="0">
 <segment>
-<pinref part="U$5" gate="G$1" pin="P$3"/>
-<pinref part="CVA" gate="G$1" pin="A"/>
+<pinref part="CVIN" gate="G$1" pin="P$3"/>
+<pinref part="CVA" gate="G$1" pin="E"/>
 <wire x1="-17.78" y1="106.68" x2="-35.56" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
