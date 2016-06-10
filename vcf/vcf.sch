@@ -13470,9 +13470,9 @@ Source: 3M</description>
 <part name="R14" library="dan" deviceset="R-US_" device="R0603" value="47k"/>
 <part name="R15" library="dan" deviceset="R-US_" device="R0603" value="47k"/>
 <part name="GND5" library="dan" deviceset="GND" device=""/>
-<part name="R16" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
+<part name="R16" library="dan" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="Q" library="dan" deviceset="US-EVU" device="F2J" value="10K"/>
-<part name="R18" library="dan" deviceset="R-US_" device="R0603" value="10k"/>
+<part name="R18" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="R19" library="dan" deviceset="R-US_" device="R0603" value="47k"/>
 <part name="R20" library="dan" deviceset="R-US_" device="R0603" value="47k"/>
 <part name="GND6" library="dan" deviceset="GND" device=""/>
@@ -13567,8 +13567,8 @@ Source: 3M</description>
 <part name="P-5" library="dan" deviceset="-12V" device=""/>
 <part name="R45" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="R46" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
-<part name="R47" library="dan" deviceset="R-US_" device="R0603" value="22k"/>
-<part name="R48" library="dan" deviceset="R-US_" device="R0603" value="22k"/>
+<part name="R47" library="dan" deviceset="R-US_" device="R0603" value="90k"/>
+<part name="R48" library="dan" deviceset="R-US_" device="R0603" value="100k"/>
 <part name="R49" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="P+11" library="dan" deviceset="+12V" device=""/>
 <part name="R50" library="dan" deviceset="R-US_" device="R0603" value="dnp"/>
@@ -13591,10 +13591,12 @@ Source: 3M</description>
 <sheet>
 <plain>
 <text x="-68.58" y="200.66" size="1.778" layer="91">Buffers have to be fet input.  Probably just make these TL084</text>
-<text x="-73.66" y="-2.54" size="1.778" layer="91">need to figure these out.  22k?</text>
+<text x="-73.66" y="0" size="1.778" layer="91">might add a trim pot here.</text>
 <text x="-76.2" y="27.94" size="1.778" layer="91">try 47k for these</text>
 <text x="104.14" y="185.42" size="1.778" layer="91">These gain resistors unverified</text>
 <text x="-68.58" y="198.12" size="1.778" layer="91">Make the instrumentation amps and summing amps opa4134</text>
+<text x="-71.12" y="-2.54" size="1.778" layer="91">it's 100k in parallel with 1m</text>
+<text x="144.78" y="91.44" size="1.778" layer="91">put a 22k resistor here</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="35.56" y="38.1"/>

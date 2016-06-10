@@ -8143,7 +8143,7 @@ Source: 3M</description>
 <part name="C1" library="dan" deviceset="C-US" device="C0603" value="10n"/>
 <part name="R9" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="R10" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
-<part name="R11" library="dan" deviceset="R-US_" device="R0603" value="10k"/>
+<part name="R11" library="dan" deviceset="R-US_" device="R0603" value="47k"/>
 <part name="IN" library="dan" deviceset="PJ301BM" device=""/>
 <part name="GND3" library="dan" deviceset="GND" device=""/>
 <part name="DCOS" library="dan" deviceset="TRIM_US-" device="RJ9W" value="10k"/>
@@ -8169,7 +8169,6 @@ Source: 3M</description>
 <part name="AMP" library="dan" deviceset="US-EVU" device="F2J"/>
 <part name="R19" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="R20" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
-<part name="P+6" library="dan" deviceset="+12V" device=""/>
 <part name="GND8" library="dan" deviceset="GND" device=""/>
 <part name="RESP" library="dan" deviceset="TRIM_US-" device="RJ9W" value="10k"/>
 <part name="P+7" library="dan" deviceset="+12V" device=""/>
@@ -8195,6 +8194,7 @@ Source: 3M</description>
 <part name="R23" library="dan" deviceset="R-US_" device="R0603" value="10"/>
 <part name="R24" library="dan" deviceset="R-US_" device="R0603" value="10"/>
 <part name="GND13" library="dan" deviceset="GND" device=""/>
+<part name="P-7" library="dan" deviceset="-12V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8254,8 +8254,7 @@ Source: 3M</description>
 <instance part="AMP" gate="G$1" x="-43.18" y="33.02" rot="R180"/>
 <instance part="R19" gate="G$1" x="-43.18" y="48.26" rot="R270"/>
 <instance part="R20" gate="G$1" x="-43.18" y="17.78" rot="R270"/>
-<instance part="P+6" gate="1" x="-43.18" y="58.42"/>
-<instance part="GND8" gate="1" x="-43.18" y="7.62"/>
+<instance part="GND8" gate="1" x="-35.56" y="50.8"/>
 <instance part="RESP" gate="G$1" x="-53.34" y="76.2" rot="R180"/>
 <instance part="P+7" gate="1" x="-53.34" y="88.9"/>
 <instance part="GND9" gate="1" x="-53.34" y="63.5"/>
@@ -8295,6 +8294,7 @@ Source: 3M</description>
 <instance part="R23" gate="G$1" x="-121.92" y="30.48" rot="R180"/>
 <instance part="R24" gate="G$1" x="-121.92" y="7.62" rot="R180"/>
 <instance part="GND13" gate="1" x="-114.3" y="63.5"/>
+<instance part="P-7" gate="1" x="-43.18" y="7.62"/>
 </instances>
 <busses>
 </busses>
@@ -8405,11 +8405,6 @@ Source: 3M</description>
 <wire x1="-73.66" y1="-2.54" x2="-76.2" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND8" gate="1" pin="GND"/>
-<pinref part="R20" gate="G$1" pin="2"/>
-<wire x1="-43.18" y1="10.16" x2="-43.18" y2="12.7" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="GND9" gate="1" pin="GND"/>
 <pinref part="RESP" gate="G$1" pin="E"/>
 <wire x1="-53.34" y1="66.04" x2="-53.34" y2="68.58" width="0.1524" layer="91"/>
@@ -8481,6 +8476,13 @@ Source: 3M</description>
 <pinref part="GND13" gate="1" pin="GND"/>
 <wire x1="-114.3" y1="66.04" x2="-114.3" y2="68.58" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R19" gate="G$1" pin="1"/>
+<wire x1="-43.18" y1="53.34" x2="-43.18" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="55.88" x2="-35.56" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="GND8" gate="1" pin="GND"/>
+<wire x1="-35.56" y1="55.88" x2="-35.56" y2="53.34" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$6" class="0">
 <segment>
@@ -8532,11 +8534,6 @@ Source: 3M</description>
 <pinref part="IC3" gate="P" pin="V+"/>
 <pinref part="P+5" gate="1" pin="+12V"/>
 <wire x1="5.08" y1="83.82" x2="5.08" y2="86.36" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R19" gate="G$1" pin="1"/>
-<pinref part="P+6" gate="1" pin="+12V"/>
-<wire x1="-43.18" y1="53.34" x2="-43.18" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="RESP" gate="G$1" pin="A"/>
@@ -8623,6 +8620,11 @@ Source: 3M</description>
 <pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="-132.08" y1="58.42" x2="-132.08" y2="55.88" width="0.1524" layer="91"/>
 <junction x="-132.08" y="55.88"/>
+</segment>
+<segment>
+<pinref part="P-7" gate="1" pin="-12V"/>
+<pinref part="R20" gate="G$1" pin="2"/>
+<wire x1="-43.18" y1="10.16" x2="-43.18" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="NEG8" class="0">
