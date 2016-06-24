@@ -13567,7 +13567,7 @@ Source: 3M</description>
 <part name="P-5" library="dan" deviceset="-12V" device=""/>
 <part name="R45" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="R46" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
-<part name="R47" library="dan" deviceset="R-US_" device="R0603" value="90k"/>
+<part name="R47" library="dan" deviceset="R-US_" device="R0603" value="47k"/>
 <part name="R48" library="dan" deviceset="R-US_" device="R0603" value="100k"/>
 <part name="R49" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="P+11" library="dan" deviceset="+12V" device=""/>
@@ -13586,17 +13586,18 @@ Source: 3M</description>
 <part name="C22" library="dan" deviceset="CPOL-US" device="E2.5-6" value="10u"/>
 <part name="R9" library="dan" deviceset="R-US_" device="R0603" value="10"/>
 <part name="R51" library="dan" deviceset="R-US_" device="R0603" value="10"/>
+<part name="MAXFREQ" library="dan" deviceset="TRIM_US-" device="S64W" value="100K"/>
+<part name="MAXRES" library="dan" deviceset="TRIM_US-" device="S64W" value="47K"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="-68.58" y="200.66" size="1.778" layer="91">Buffers have to be fet input.  Probably just make these TL084</text>
-<text x="-73.66" y="0" size="1.778" layer="91">might add a trim pot here.</text>
 <text x="-76.2" y="27.94" size="1.778" layer="91">try 47k for these</text>
 <text x="104.14" y="185.42" size="1.778" layer="91">These gain resistors unverified</text>
 <text x="-68.58" y="198.12" size="1.778" layer="91">Make the instrumentation amps and summing amps opa4134</text>
-<text x="-71.12" y="-2.54" size="1.778" layer="91">it's 100k in parallel with 1m</text>
-<text x="144.78" y="91.44" size="1.778" layer="91">put a 22k resistor here</text>
+<text x="119.38" y="88.9" size="1.778" layer="91">22k is about right</text>
+<text x="-53.34" y="-5.08" size="1.778" layer="91">90k is about right.  allow the user to dial in a good feel for the knob</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="35.56" y="38.1"/>
@@ -13705,7 +13706,7 @@ Source: 3M</description>
 <instance part="GND21" gate="1" x="172.72" y="200.66"/>
 <instance part="FREQ" gate="G$1" x="-78.74" y="-15.24" rot="MR180"/>
 <instance part="P-7" gate="1" x="-78.74" y="-40.64"/>
-<instance part="P+9" gate="1" x="-78.74" y="10.16"/>
+<instance part="P+9" gate="1" x="-63.5" y="15.24"/>
 <instance part="R44" gate="G$1" x="-66.04" y="-15.24"/>
 <instance part="GAIN1" gate="G$1" x="-88.9" y="20.32"/>
 <instance part="C5" gate="G$1" x="-20.32" y="38.1" rot="R270"/>
@@ -13791,6 +13792,8 @@ Source: 3M</description>
 <instance part="C22" gate="G$1" x="208.28" y="66.04" rot="R270"/>
 <instance part="R9" gate="G$1" x="-45.72" y="177.8" rot="R180"/>
 <instance part="R51" gate="G$1" x="-45.72" y="154.94" rot="R180"/>
+<instance part="MAXFREQ" gate="G$1" x="-63.5" y="2.54"/>
+<instance part="MAXRES" gate="G$1" x="139.7" y="76.2"/>
 </instances>
 <busses>
 </busses>
@@ -14379,11 +14382,6 @@ Source: 3M</description>
 <pinref part="P+7" gate="1" pin="+12V"/>
 </segment>
 <segment>
-<pinref part="R47" gate="G$1" pin="2"/>
-<pinref part="P+9" gate="1" pin="+12V"/>
-<wire x1="-78.74" y1="7.62" x2="-78.74" y2="5.08" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="P+11" gate="1" pin="+12V"/>
 <wire x1="-10.16" y1="10.16" x2="-2.54" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="R50" gate="G$1" pin="1"/>
@@ -14393,6 +14391,11 @@ Source: 3M</description>
 <pinref part="Q7" gate="G$1" pin="C"/>
 <pinref part="P+12" gate="1" pin="+12V"/>
 <wire x1="-134.62" y1="-2.54" x2="-134.62" y2="2.54" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="MAXFREQ" gate="G$1" pin="E"/>
+<pinref part="P+9" gate="1" pin="+12V"/>
+<wire x1="-63.5" y1="12.7" x2="-63.5" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="-12V" class="0">
@@ -14538,12 +14541,18 @@ Source: 3M</description>
 <wire x1="139.7" y1="193.04" x2="139.7" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="203.2" x2="127" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="IC4" gate="A" pin="OUT"/>
-<pinref part="Q" gate="G$1" pin="E"/>
-<wire x1="139.7" y1="45.72" x2="139.7" y2="160.02" width="0.1524" layer="91"/>
-<junction x="139.7" y="160.02"/>
 <pinref part="C21" gate="G$1" pin="-"/>
 <wire x1="149.86" y1="193.04" x2="139.7" y2="193.04" width="0.1524" layer="91"/>
 <junction x="139.7" y="193.04"/>
+<pinref part="MAXRES" gate="G$1" pin="E"/>
+<wire x1="139.7" y1="160.02" x2="139.7" y2="86.36" width="0.1524" layer="91"/>
+<junction x="139.7" y="160.02"/>
+<pinref part="MAXRES" gate="G$1" pin="S"/>
+<wire x1="139.7" y1="86.36" x2="139.7" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="76.2" x2="147.32" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="76.2" x2="147.32" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="86.36" x2="139.7" y2="86.36" width="0.1524" layer="91"/>
+<junction x="139.7" y="86.36"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -15145,6 +15154,29 @@ Source: 3M</description>
 <pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="-50.8" y1="177.8" x2="-53.34" y2="177.8" width="0.1524" layer="91"/>
 <junction x="-53.34" y="177.8"/>
+</segment>
+</net>
+<net name="N$73" class="0">
+<segment>
+<wire x1="-55.88" y1="2.54" x2="-55.88" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="-55.88" y1="-7.62" x2="-63.5" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="MAXFREQ" gate="G$1" pin="A"/>
+<wire x1="-63.5" y1="-7.62" x2="-63.5" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="-7.62" x2="-73.66" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="-7.62" x2="-73.66" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="R47" gate="G$1" pin="2"/>
+<wire x1="-73.66" y1="7.62" x2="-78.74" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="-78.74" y1="7.62" x2="-78.74" y2="5.08" width="0.1524" layer="91"/>
+<junction x="-63.5" y="-7.62"/>
+<pinref part="MAXFREQ" gate="G$1" pin="S"/>
+<wire x1="-58.42" y1="2.54" x2="-55.88" y2="2.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$74" class="0">
+<segment>
+<pinref part="MAXRES" gate="G$1" pin="A"/>
+<pinref part="Q" gate="G$1" pin="E"/>
+<wire x1="139.7" y1="68.58" x2="139.7" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

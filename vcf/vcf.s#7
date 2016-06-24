@@ -13468,13 +13468,13 @@ Source: 3M</description>
 <part name="R12" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="R13" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="R14" library="dan" deviceset="R-US_" device="R0603" value="10k"/>
-<part name="R15" library="dan" deviceset="R-US_" device="R0603" value="10k"/>
+<part name="R15" library="dan" deviceset="R-US_" device="R0603" value="47k"/>
 <part name="GND5" library="dan" deviceset="GND" device=""/>
 <part name="R16" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="Q" library="dan" deviceset="US-EVU" device="F2J" value="10K"/>
 <part name="R18" library="dan" deviceset="R-US_" device="R0603" value="10k"/>
-<part name="R19" library="dan" deviceset="R-US_" device="R0603" value="10k"/>
-<part name="R20" library="dan" deviceset="R-US_" device="R0603" value="10k"/>
+<part name="R19" library="dan" deviceset="R-US_" device="R0603" value="47k"/>
+<part name="R20" library="dan" deviceset="R-US_" device="R0603" value="47k"/>
 <part name="GND6" library="dan" deviceset="GND" device=""/>
 <part name="GAIN" library="dan" deviceset="US-EVU" device="F2J" value="10K"/>
 <part name="AIN" library="dan" deviceset="PJ301BM" device=""/>
@@ -13495,17 +13495,17 @@ Source: 3M</description>
 <part name="VPEROCT" library="dan" deviceset="PJ301BM" device=""/>
 <part name="GND13" library="dan" deviceset="GND" device=""/>
 <part name="GND14" library="dan" deviceset="GND" device=""/>
-<part name="R29" library="dan" deviceset="R-US_" device="R0603" value="10k"/>
+<part name="R29" library="dan" deviceset="R-US_" device="R0603" value="47k"/>
 <part name="R30" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="R31" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="R17" library="dan" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="GND15" library="dan" deviceset="GND" device=""/>
-<part name="R32" library="dan" deviceset="R-US_" device="R0603" value="10k"/>
+<part name="R32" library="dan" deviceset="R-US_" device="R0603" value="47k"/>
 <part name="R33" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="R34" library="dan" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="GND16" library="dan" deviceset="GND" device=""/>
 <part name="R35" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
-<part name="R36" library="dan" deviceset="R-US_" device="R0603" value="10k"/>
+<part name="R36" library="dan" deviceset="R-US_" device="R0603" value="47k"/>
 <part name="R37" library="dan" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="R38" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="R39" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
@@ -13525,7 +13525,7 @@ Source: 3M</description>
 <part name="FREQ" library="dan" deviceset="US-EVU" device="F2J" value="10K"/>
 <part name="P-7" library="dan" deviceset="-12V" device=""/>
 <part name="P+9" library="dan" deviceset="+12V" device=""/>
-<part name="R44" library="dan" deviceset="R-US_" device="R0603" value="10k"/>
+<part name="R44" library="dan" deviceset="R-US_" device="R0603" value="470k"/>
 <part name="GAIN1" library="dan" deviceset="US-EVU" device="F2J" value="10K"/>
 <part name="C5" library="dan" deviceset="CPOL-US" device="E2.5-6" value="10u"/>
 <part name="C7" library="dan" deviceset="CPOL-US" device="E2.5-6" value="4.7u"/>
@@ -13567,8 +13567,8 @@ Source: 3M</description>
 <part name="P-5" library="dan" deviceset="-12V" device=""/>
 <part name="R45" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="R46" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
-<part name="R47" library="dan" deviceset="R-US_" device="R0603" value="100k"/>
-<part name="R48" library="dan" deviceset="R-US_" device="R0603" value="100k"/>
+<part name="R47" library="dan" deviceset="R-US_" device="R0603" value="22k"/>
+<part name="R48" library="dan" deviceset="R-US_" device="R0603" value="22k"/>
 <part name="R49" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="P+11" library="dan" deviceset="+12V" device=""/>
 <part name="R50" library="dan" deviceset="R-US_" device="R0603" value="dnp"/>
@@ -13593,7 +13593,9 @@ Source: 3M</description>
 <text x="-137.16" y="233.68" size="1.778" layer="91">Make sure the buffers don't share packages with the instrumentation amps.</text>
 <text x="-137.16" y="228.6" size="1.778" layer="91">Buffers have to be fet input.  Probably just make these TL084</text>
 <text x="-137.16" y="223.52" size="1.778" layer="91">coupling between IC5A and IC5D might be a conceern</text>
-<text x="-73.66" y="-2.54" size="1.778" layer="91">100k might be a good value for these</text>
+<text x="-73.66" y="-2.54" size="1.778" layer="91">need to figure these out.  22k?</text>
+<text x="-76.2" y="27.94" size="1.778" layer="91">try 47k for these</text>
+<text x="104.14" y="185.42" size="1.778" layer="91">These gain resistors unverified</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="35.56" y="38.1"/>
