@@ -13598,6 +13598,8 @@ Source: 3M</description>
 <text x="-68.58" y="198.12" size="1.778" layer="91">Make the instrumentation amps and summing amps opa4134</text>
 <text x="119.38" y="88.9" size="1.778" layer="91">22k is about right</text>
 <text x="-53.34" y="-5.08" size="1.778" layer="91">90k is about right.  allow the user to dial in a good feel for the knob</text>
+<text x="-53.34" y="15.24" size="1.778" layer="91">Changed r18 to 4.7k</text>
+<text x="-86.36" y="25.4" size="1.778" layer="91">changed r19 and r20 to 22k</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="35.56" y="38.1"/>

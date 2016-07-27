@@ -13467,7 +13467,7 @@ Source: 3M</description>
 <part name="P+3" library="dan" deviceset="+12V" device=""/>
 <part name="R12" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="R13" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
-<part name="R14" library="dan" deviceset="R-US_" device="R0603" value="10k"/>
+<part name="R14" library="dan" deviceset="R-US_" device="R0603" value="47k"/>
 <part name="R15" library="dan" deviceset="R-US_" device="R0603" value="47k"/>
 <part name="GND5" library="dan" deviceset="GND" device=""/>
 <part name="R16" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
@@ -13498,15 +13498,15 @@ Source: 3M</description>
 <part name="R29" library="dan" deviceset="R-US_" device="R0603" value="47k"/>
 <part name="R30" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="R31" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
-<part name="R17" library="dan" deviceset="R-US_" device="R0603" value="10k"/>
+<part name="R17" library="dan" deviceset="R-US_" device="R0603" value="47k"/>
 <part name="GND15" library="dan" deviceset="GND" device=""/>
 <part name="R32" library="dan" deviceset="R-US_" device="R0603" value="47k"/>
 <part name="R33" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
-<part name="R34" library="dan" deviceset="R-US_" device="R0603" value="10k"/>
+<part name="R34" library="dan" deviceset="R-US_" device="R0603" value="47k"/>
 <part name="GND16" library="dan" deviceset="GND" device=""/>
 <part name="R35" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="R36" library="dan" deviceset="R-US_" device="R0603" value="47k"/>
-<part name="R37" library="dan" deviceset="R-US_" device="R0603" value="10k"/>
+<part name="R37" library="dan" deviceset="R-US_" device="R0603" value="47k"/>
 <part name="R38" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="R39" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="GND17" library="dan" deviceset="GND" device=""/>
