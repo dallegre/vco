@@ -7925,7 +7925,7 @@ Source: www.kingbright.com</description>
 <part name="IC4" library="dan" deviceset="OPA2134" device="D"/>
 <part name="Q1" library="dan" deviceset="BC847*" device="SMD" technology="ALT1"/>
 <part name="Q2" library="dan" deviceset="BC857*" device="SMD" technology="ALT1"/>
-<part name="R14" library="dan" deviceset="R-US_" device="R0603" value="1k"/>
+<part name="R14" library="dan" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="R15" library="dan" deviceset="R-US_" device="R0603" value="90"/>
 <part name="R16" library="dan" deviceset="R-US_" device="R0603" value="2.1k"/>
 <part name="R17" library="dan" deviceset="R-US_" device="R0603" value="10k"/>
@@ -8047,6 +8047,14 @@ Source: www.kingbright.com</description>
 <text x="101.6" y="76.2" size="1.778" layer="91">Is this right?</text>
 <text x="-38.1" y="20.32" size="1.778" layer="91">Check these</text>
 <text x="-48.26" y="121.92" size="1.778" layer="91">Add LEDs!!!!</text>
+<text x="71.12" y="53.34" size="1.778" layer="91">+in should be 6V </text>
+<text x="86.36" y="-35.56" size="1.778" layer="91">Changed to 10k</text>
+<text x="137.16" y="101.6" size="1.778" layer="91">Attach this 6V to VL on dg403</text>
+<text x="0" y="-5.08" size="1.778" layer="91">Polarity backwards</text>
+<text x="10.16" y="-83.82" size="1.778" layer="91">Polarity backwards</text>
+<text x="116.84" y="-33.02" size="1.778" layer="91">Polarity backwards</text>
+<text x="134.62" y="38.1" size="1.778" layer="91">Polarity backwards</text>
+<text x="172.72" y="93.98" size="1.778" layer="91">Polarity backwards</text>
 </plain>
 <instances>
 <instance part="IC1" gate="A" x="81.28" y="101.6" rot="R270"/>
