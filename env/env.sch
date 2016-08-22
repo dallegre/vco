@@ -7961,14 +7961,14 @@ Source: www.kingbright.com</description>
 <sheet>
 <plain>
 <text x="10.16" y="-68.58" size="1.778" layer="91">Is this right?</text>
-<text x="-33.02" y="5.08" size="1.778" layer="91">Check these</text>
 <text x="91.44" y="-50.8" size="1.778" layer="91">Changed to 10k</text>
 <text x="139.7" y="22.86" size="1.778" layer="91">Polarity backwards</text>
 <text x="231.14" y="10.16" size="1.778" layer="91">bicolor</text>
+<text x="132.08" y="86.36" size="1.778" layer="91">this is VL for the switch</text>
 </plain>
 <instances>
 <instance part="IC1" gate="A" x="86.36" y="86.36" rot="R270"/>
-<instance part="IC1" gate="VL" x="-45.72" y="76.2"/>
+<instance part="IC1" gate="VL" x="152.4" y="91.44"/>
 <instance part="IC1" gate="B" x="58.42" y="55.88" rot="MR180"/>
 <instance part="IC3" gate="A" x="22.86" y="33.02"/>
 <instance part="IC3" gate="B" x="22.86" y="50.8"/>
@@ -8286,6 +8286,7 @@ Source: www.kingbright.com</description>
 <wire x1="-45.72" y1="-68.58" x2="-50.8" y2="-68.58" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="-68.58" x2="-50.8" y2="-71.12" width="0.1524" layer="91"/>
 <junction x="-50.8" y="-71.12"/>
+<junction x="-50.8" y="-76.2"/>
 </segment>
 <segment>
 <pinref part="ACV" gate="G$1" pin="P$2"/>
@@ -8298,6 +8299,7 @@ Source: www.kingbright.com</description>
 <wire x1="35.56" y1="-73.66" x2="35.56" y2="-78.74" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="-73.66" x2="35.56" y2="-73.66" width="0.1524" layer="91"/>
 <junction x="35.56" y="-73.66"/>
+<junction x="35.56" y="-78.74"/>
 </segment>
 <segment>
 <pinref part="GND20" gate="1" pin="GND"/>
@@ -8594,6 +8596,7 @@ Source: www.kingbright.com</description>
 <wire x1="101.6" y1="22.86" x2="99.06" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="22.86" x2="96.52" y2="20.32" width="0.1524" layer="91"/>
 <label x="96.52" y="20.32" size="1.778" layer="95"/>
+<junction x="101.6" y="22.86"/>
 </segment>
 <segment>
 <pinref part="AUV" gate="G$1" pin="E"/>
@@ -8602,6 +8605,7 @@ Source: www.kingbright.com</description>
 <wire x1="147.32" y1="48.26" x2="149.86" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="48.26" x2="144.78" y2="48.26" width="0.1524" layer="91"/>
 <label x="144.78" y="48.26" size="1.778" layer="95"/>
+<junction x="147.32" y="48.26"/>
 </segment>
 <segment>
 <pinref part="R43" gate="G$1" pin="2"/>
@@ -8722,6 +8726,7 @@ Source: www.kingbright.com</description>
 <wire x1="-114.3" y1="30.48" x2="-114.3" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="-114.3" y1="33.02" x2="-106.68" y2="33.02" width="0.1524" layer="91"/>
 <junction x="-106.68" y="33.02"/>
+<junction x="-63.5" y="33.02"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="P" pin="VDD"/>
@@ -8924,11 +8929,15 @@ Source: www.kingbright.com</description>
 <pinref part="R13" gate="G$1" pin="1"/>
 <wire x1="165.1" y1="83.82" x2="165.1" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="86.36" x2="165.1" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="106.68" x2="160.02" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="106.68" x2="160.02" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="91.44" x2="160.02" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="86.36" x2="165.1" y2="86.36" width="0.1524" layer="91"/>
 <junction x="165.1" y="86.36"/>
 <pinref part="IC2" gate="D" pin="-IN"/>
 <wire x1="157.48" y1="106.68" x2="160.02" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="VL" pin="VL"/>
+<wire x1="154.94" y1="91.44" x2="160.02" y2="91.44" width="0.1524" layer="91"/>
+<junction x="160.02" y="91.44"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -9079,6 +9088,7 @@ Source: www.kingbright.com</description>
 <wire x1="182.88" y1="33.02" x2="180.34" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="R36" gate="G$1" pin="2"/>
 <wire x1="193.04" y1="43.18" x2="182.88" y2="43.18" width="0.1524" layer="91"/>
+<junction x="182.88" y="43.18"/>
 </segment>
 </net>
 <net name="N$34" class="0">
@@ -9167,6 +9177,7 @@ Source: www.kingbright.com</description>
 <wire x1="226.06" y1="-38.1" x2="223.52" y2="-38.1" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="-27.94" x2="228.6" y2="-27.94" width="0.1524" layer="91"/>
 <label x="228.6" y="-27.94" size="1.778" layer="95"/>
+<junction x="226.06" y="-27.94"/>
 </segment>
 </net>
 <net name="ASCV" class="0">
@@ -9183,6 +9194,7 @@ Source: www.kingbright.com</description>
 <wire x1="167.64" y1="-38.1" x2="165.1" y2="-38.1" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="-27.94" x2="170.18" y2="-27.94" width="0.1524" layer="91"/>
 <label x="170.18" y="-27.94" size="1.778" layer="95"/>
+<junction x="167.64" y="-27.94"/>
 </segment>
 </net>
 <net name="N$35" class="0">
