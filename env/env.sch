@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -7798,7 +7798,7 @@ Source: www.kingbright.com</description>
 <part name="IC1" library="dan" deviceset="DG403DJ" device="D"/>
 <part name="IC3" library="dan" deviceset="4001" device="D"/>
 <part name="R1" library="dan" deviceset="R-US_" device="R0603" value="1meg"/>
-<part name="R2" library="dan" deviceset="R-US_" device="R0603" value="1meg"/>
+<part name="R2" library="dan" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="GND1" library="dan" deviceset="GND" device=""/>
 <part name="GND2" library="dan" deviceset="GND" device=""/>
 <part name="C1" library="dan" deviceset="C-US" device="C0603"/>
@@ -7965,6 +7965,8 @@ Source: www.kingbright.com</description>
 <text x="139.7" y="22.86" size="1.778" layer="91">Polarity backwards</text>
 <text x="231.14" y="10.16" size="1.778" layer="91">bicolor</text>
 <text x="132.08" y="86.36" size="1.778" layer="91">this is VL for the switch</text>
+<text x="-5.08" y="60.96" size="1.778" layer="91">On</text>
+<text x="38.1" y="55.88" size="1.778" layer="91">AR</text>
 </plain>
 <instances>
 <instance part="IC1" gate="A" x="86.36" y="86.36" rot="R270"/>
