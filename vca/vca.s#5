@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8238,7 +8238,7 @@ Source: 3M</description>
 <instance part="R16" gate="G$1" x="-60.96" y="15.24" rot="R180"/>
 <instance part="R17" gate="G$1" x="-76.2" y="15.24" rot="R180"/>
 <instance part="R18" gate="G$1" x="-76.2" y="7.62" rot="R180"/>
-<instance part="AMP" gate="G$1" x="-12.7" y="60.96" rot="R180"/>
+<instance part="AMP" gate="G$1" x="-12.7" y="60.96" rot="MR0"/>
 <instance part="R19" gate="G$1" x="-12.7" y="76.2" rot="R270"/>
 <instance part="R20" gate="G$1" x="-12.7" y="45.72" rot="R270"/>
 <instance part="GND8" gate="1" x="-12.7" y="35.56"/>
@@ -8831,20 +8831,6 @@ Source: 3M</description>
 <junction x="-68.58" y="7.62"/>
 </segment>
 </net>
-<net name="N$22" class="0">
-<segment>
-<pinref part="AMP" gate="G$1" pin="A"/>
-<pinref part="R19" gate="G$1" pin="2"/>
-<wire x1="-12.7" y1="68.58" x2="-12.7" y2="71.12" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$23" class="0">
-<segment>
-<pinref part="AMP" gate="G$1" pin="E"/>
-<pinref part="R20" gate="G$1" pin="1"/>
-<wire x1="-12.7" y1="53.34" x2="-12.7" y2="50.8" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$26" class="0">
 <segment>
 <pinref part="CVIN" gate="G$1" pin="P$3"/>
@@ -8986,13 +8972,6 @@ Source: 3M</description>
 <wire x1="-38.1" y1="68.58" x2="-40.64" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$32" class="0">
-<segment>
-<pinref part="AMP" gate="G$1" pin="S"/>
-<pinref part="SV6" gate="1" pin="4"/>
-<wire x1="-17.78" y1="60.96" x2="-40.64" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$33" class="0">
 <segment>
 <pinref part="SV5" gate="1" pin="1"/>
@@ -9009,6 +8988,27 @@ Source: 3M</description>
 <pinref part="OUT" gate="G$1" pin="P$3"/>
 <pinref part="SV8" gate="1" pin="1"/>
 <wire x1="134.62" y1="60.96" x2="124.46" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$22" class="0">
+<segment>
+<pinref part="R19" gate="G$1" pin="2"/>
+<pinref part="AMP" gate="G$1" pin="E"/>
+<wire x1="-12.7" y1="71.12" x2="-12.7" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$23" class="0">
+<segment>
+<pinref part="R20" gate="G$1" pin="1"/>
+<pinref part="AMP" gate="G$1" pin="A"/>
+<wire x1="-12.7" y1="50.8" x2="-12.7" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$32" class="0">
+<segment>
+<pinref part="AMP" gate="G$1" pin="S"/>
+<pinref part="SV6" gate="1" pin="4"/>
+<wire x1="-17.78" y1="60.96" x2="-40.64" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
