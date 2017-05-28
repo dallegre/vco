@@ -9931,7 +9931,7 @@ Source: www.kingbright.com</description>
 <part name="LINMODAMT" library="dan" deviceset="US-EVU" device="F2J" value="10K"/>
 <part name="SYNC" library="dan" deviceset="PJ301BM" device=""/>
 <part name="IC4" library="dan" deviceset="OPA4130" device="U"/>
-<part name="C6" library="dan" deviceset="C-US" device="C0603" value="1n"/>
+<part name="C6" library="dan" deviceset="C-US" device="C0603" value="100p"/>
 <part name="C7" library="dan" deviceset="C-US" device="C0603" value="1n"/>
 <part name="GND29" library="dan" deviceset="GND" device=""/>
 <part name="P+7" library="dan" deviceset="+12V" device=""/>

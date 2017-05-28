@@ -49044,7 +49044,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="3.175" y="27.305" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="3.175" y="19.685" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="R53" library="dan" package="R0603" value="100k" x="30.48" y="60.96" smashed="yes" rot="R90">
+<element name="R53" library="dan" package="R0603" value="20k" x="30.48" y="60.96" smashed="yes" rot="R90">
 <attribute name="NAME" x="31.115" y="62.865" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="31.115" y="59.055" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>

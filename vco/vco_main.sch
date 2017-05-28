@@ -9920,7 +9920,7 @@ Distributor Buerklin, 11G810</description>
 <part name="R44" library="dan" deviceset="R-US_" device="R0603" value="1K"/>
 <part name="R45" library="dan" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="GND25" library="dan" deviceset="GND" device=""/>
-<part name="R46" library="dan" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R46" library="dan" deviceset="R-US_" device="R0603" value="330k not sure"/>
 <part name="EXPMODAMT" library="dan" deviceset="US-EVU" device="F2J" value="10K"/>
 <part name="GND26" library="dan" deviceset="GND" device=""/>
 <part name="EXPMOD" library="dan" deviceset="PJ301BM" device=""/>
@@ -9973,7 +9973,7 @@ Distributor Buerklin, 11G810</description>
 <part name="R52" library="dan" deviceset="R-US_" device="R0603" value="1Meg"/>
 <part name="GND37" library="dan" deviceset="GND" device=""/>
 <part name="GND38" library="dan" deviceset="GND" device=""/>
-<part name="R53" library="dan" deviceset="R-US_" device="R0603" value="20k"/>
+<part name="R53" library="dan" deviceset="R-US_" device="R0603" value="330k"/>
 <part name="LED1" library="dan" deviceset="LED" device="5MM"/>
 <part name="S1" library="dan" deviceset="255SB" device=""/>
 </parts>
@@ -9981,6 +9981,7 @@ Distributor Buerklin, 11G810</description>
 <sheet>
 <plain>
 <text x="165.1" y="132.08" size="1.778" layer="91">Verify location of sync input</text>
+<text x="-50.8" y="104.14" size="1.778" layer="91">need to change this to exp or log</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="71.12" y="15.24"/>
