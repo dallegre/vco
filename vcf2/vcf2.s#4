@@ -13954,8 +13954,8 @@ Source: 3M</description>
 <instance part="SV6" gate="1" x="-35.56" y="106.68" rot="MR0"/>
 <instance part="SV7" gate="1" x="-127" y="-5.08"/>
 <instance part="SV8" gate="1" x="-38.1" y="-91.44" rot="MR0"/>
-<instance part="SV9" gate="1" x="-68.58" y="71.12"/>
-<instance part="SV10" gate="1" x="-50.8" y="73.66" rot="MR0"/>
+<instance part="SV9" gate="1" x="-48.26" y="73.66"/>
+<instance part="SV10" gate="1" x="-55.88" y="73.66" rot="MR0"/>
 <instance part="SV11" gate="1" x="251.46" y="132.08"/>
 <instance part="SV12" gate="1" x="241.3" y="132.08" rot="MR0"/>
 <instance part="GND4" gate="1" x="-137.16" y="66.04"/>
