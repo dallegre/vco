@@ -15976,6 +15976,27 @@ Source: http://focus.ti.com/lit/ds/sbos058/sbos058.pdf</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="SSM2212">
+<gates>
+<gate name="G$1" symbol="NPN" x="-12.7" y="5.08"/>
+<gate name="G$2" symbol="NPN" x="5.08" y="5.08"/>
+</gates>
+<devices>
+<device name="SOIC" package="SO08">
+<connects>
+<connect gate="G$1" pin="B" pad="2"/>
+<connect gate="G$1" pin="C" pad="1"/>
+<connect gate="G$1" pin="E" pad="3"/>
+<connect gate="G$2" pin="B" pad="7"/>
+<connect gate="G$2" pin="C" pad="8"/>
+<connect gate="G$2" pin="E" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
