@@ -8654,9 +8654,6 @@ Distributor Buerklin, 11G810</description>
 <junction x="-48.26" y="132.08"/>
 </segment>
 <segment>
-<wire x1="-40.64" y1="129.54" x2="-45.72" y2="129.54" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="SV5" gate="1" pin="3"/>
 <wire x1="-76.2" y1="63.5" x2="-78.74" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="-78.74" y1="63.5" x2="-78.74" y2="66.04" width="0.1524" layer="91"/>
@@ -8770,7 +8767,6 @@ Distributor Buerklin, 11G810</description>
 <pinref part="DCOS" gate="G$1" pin="S"/>
 <pinref part="P+3" gate="1" pin="+12V"/>
 <wire x1="30.48" y1="78.74" x2="30.48" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="76.2" x2="30.48" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="V+"/>
