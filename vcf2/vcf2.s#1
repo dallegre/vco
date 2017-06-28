@@ -15543,7 +15543,8 @@ Source: 3M</description>
 <pinref part="SV9" gate="1" pin="3"/>
 <wire x1="-43.18" y1="81.28" x2="-22.86" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="81.28" x2="-22.86" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="-22.86" y1="96.52" x2="-15.24" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="96.52" x2="-17.78" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="GAIN" gate="G$1" pin="S"/>
 </segment>
 </net>
 <net name="N$88" class="0">

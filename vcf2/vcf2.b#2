@@ -74,9 +74,9 @@
 <board>
 <plain>
 <wire x1="0" y1="0" x2="58.4" y2="0" width="0" layer="20"/>
-<wire x1="58.4" y1="0" x2="58.4" y2="218.11" width="0" layer="20"/>
-<wire x1="58.4" y1="218.11" x2="0" y2="218.11" width="0" layer="20"/>
-<wire x1="0" y1="218.11" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="58.4" y1="0" x2="58.4" y2="216.84" width="0" layer="20"/>
+<wire x1="58.4" y1="216.84" x2="0" y2="216.84" width="0" layer="20"/>
+<wire x1="0" y1="216.84" x2="0" y2="0" width="0" layer="20"/>
 <text x="35.7632" y="140.208" size="1.27" layer="21" font="vector" ratio="15" rot="R270">BP</text>
 <text x="36.3474" y="122.1994" size="1.27" layer="21" font="vector" ratio="15" rot="R270">LP</text>
 <text x="20.7264" y="123.2408" size="1.27" layer="21" font="vector" ratio="15" rot="R270">AIN2</text>

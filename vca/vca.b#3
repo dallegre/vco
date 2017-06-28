@@ -1106,6 +1106,7 @@ design rules under a new name.</description>
 <contactref element="IN2" pad="P$2"/>
 <contactref element="R25" pad="1"/>
 <wire x1="22.86" y1="105.41" x2="21.59" y2="116.84" width="0" layer="19" extent="1-1"/>
+<via x="15.24" y="10.16" extent="1-16" drill="0.7"/>
 </signal>
 <signal name="+12V">
 <contactref element="IC1" pad="4"/>
