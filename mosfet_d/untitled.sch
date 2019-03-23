@@ -10349,26 +10349,26 @@ high speed (Philips)</description>
 <part name="R2" library="dan" deviceset="R-US_" device="0207/7" value="2.2Meg"/>
 <part name="R3" library="dan" deviceset="R-US_" device="0207/7" value="1K"/>
 <part name="R4" library="dan" deviceset="R-US_" device="0207/7" value="1K"/>
-<part name="C2" library="dan" deviceset="CPOL-US" device="E2-5" value="1u"/>
-<part name="C3" library="dan" deviceset="CPOL-US" device="E2-5" value="4.7u"/>
+<part name="C2" library="dan" deviceset="CPOL-US" device="E2-5" value="10n"/>
+<part name="C3" library="dan" deviceset="CPOL-US" device="E2-5" value="3.3u"/>
 <part name="GAINPOT" library="dan" deviceset="PINHD-1X3" device=""/>
 <part name="GND1" library="dan" deviceset="GND" device=""/>
-<part name="C4" library="dan" deviceset="CPOL-US" device="E2-5" value="1u"/>
+<part name="C4" library="dan" deviceset="CPOL-US" device="E2-5" value="4.7u"/>
 <part name="U$2" library="dan" deviceset="2N7000_2" device=""/>
-<part name="C5" library="dan" deviceset="C-US" device="050-030X075" value="47n"/>
+<part name="C5" library="dan" deviceset="C-US" device="050-030X075" value="np"/>
 <part name="R5" library="dan" deviceset="R-US_" device="0207/7" value="2.2Meg"/>
 <part name="R6" library="dan" deviceset="R-US_" device="0207/7" value="2.2Meg"/>
 <part name="R7" library="dan" deviceset="R-US_" device="0207/7" value="1K"/>
 <part name="R8" library="dan" deviceset="R-US_" device="0207/7" value="1K"/>
-<part name="C7" library="dan" deviceset="CPOL-US" device="E2-5" value="4.7u"/>
-<part name="C6" library="dan" deviceset="C-US" device="050-030X075" value="10n"/>
-<part name="C8" library="dan" deviceset="C-US" device="050-030X075" value="100n"/>
+<part name="C7" library="dan" deviceset="CPOL-US" device="E2-5" value="10u"/>
+<part name="C6" library="dan" deviceset="C-US" device="050-030X075" value="47n"/>
+<part name="C8" library="dan" deviceset="C-US" device="050-030X075" value="1u"/>
 <part name="R9" library="dan" deviceset="R-US_" device="0207/7" value="1k"/>
 <part name="C10" library="dan" deviceset="C-US" device="050-030X075" value="100n"/>
 <part name="GND2" library="dan" deviceset="GND" device=""/>
 <part name="GND3" library="dan" deviceset="GND" device=""/>
 <part name="U$3" library="dan" deviceset="2N7000_2" device=""/>
-<part name="C11" library="dan" deviceset="C-US" device="050-030X075" value="47n"/>
+<part name="C11" library="dan" deviceset="C-US" device="050-030X075" value="np"/>
 <part name="R10" library="dan" deviceset="R-US_" device="0207/7" value="2.2Meg"/>
 <part name="R11" library="dan" deviceset="R-US_" device="0207/7" value="2.2Meg"/>
 <part name="R12" library="dan" deviceset="R-US_" device="0207/7" value="1K"/>
@@ -10378,13 +10378,13 @@ high speed (Philips)</description>
 <part name="C14" library="dan" deviceset="C-US" device="050-030X075" value="100n"/>
 <part name="GND4" library="dan" deviceset="GND" device=""/>
 <part name="R16" library="dan" deviceset="R-US_" device="0207/7" value="470k"/>
-<part name="C16" library="dan" deviceset="C-US" device="050-030X075" value="1n"/>
-<part name="C17" library="dan" deviceset="CPOL-US" device="E2-5" value="1u"/>
+<part name="C16" library="dan" deviceset="C-US" device="050-030X075" value="4.7n"/>
+<part name="C17" library="dan" deviceset="CPOL-US" device="E2-5" value="47u"/>
 <part name="R17" library="dan" deviceset="R-US_" device="0207/7" value="2.2Meg"/>
 <part name="R18" library="dan" deviceset="R-US_" device="0207/7" value="2.2Meg"/>
 <part name="U$4" library="dan" deviceset="2N7000_2" device=""/>
 <part name="R19" library="dan" deviceset="R-US_" device="0207/7" value="1K"/>
-<part name="C18" library="dan" deviceset="CPOL-US" device="E2-5" value="1u"/>
+<part name="C18" library="dan" deviceset="CPOL-US" device="E2-5" value="47u"/>
 <part name="OUT" library="dan" deviceset="PINHD-1X3" device=""/>
 <part name="IN" library="dan" deviceset="PINHD-1X3" device=""/>
 <part name="GND5" library="dan" deviceset="GND" device=""/>

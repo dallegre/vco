@@ -10404,6 +10404,7 @@ high speed (Philips)</description>
 <text x="45.72" y="86.36" size="1.778" layer="91">Gain pot is 1Meg Alpha</text>
 <text x="45.72" y="83.82" size="1.778" layer="91">Out goes to volume pot.  10K Alpha.</text>
 <text x="48.26" y="78.74" size="1.778" layer="91">D1 is 1n5817</text>
+<text x="93.98" y="81.28" size="1.778" layer="91">Need to fix transistor pinouts!</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="17.78" y="48.26"/>
