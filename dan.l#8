@@ -12570,6 +12570,27 @@ Source: http://eshop.phoenixcontact.com .. 1751264.pdf</description>
 <text x="-7.874" y="1.778" size="1.27" layer="25">&gt;NAME</text>
 <text x="-7.874" y="-3.048" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="TO18">
+<description>&lt;b&gt;TO-18&lt;/b&gt;</description>
+<wire x1="0.9289" y1="2.227" x2="2.227" y2="0.9289" width="0.0508" layer="51" curve="-44.7172"/>
+<wire x1="0.9289" y1="-2.227" x2="2.227" y2="-0.9289" width="0.0508" layer="51" curve="44.7172"/>
+<wire x1="-3.937" y1="-0.508" x2="-3.937" y2="0.508" width="0.1524" layer="21"/>
+<wire x1="-2.227" y1="-0.9289" x2="0.929" y2="2.2271" width="0.0508" layer="21" curve="-135.281"/>
+<wire x1="-2.227" y1="-0.9289" x2="-0.9289" y2="-2.227" width="0.0508" layer="51" curve="44.7172"/>
+<wire x1="-3.937" y1="-0.508" x2="-2.877" y2="-0.508" width="0.1524" layer="21"/>
+<wire x1="-0.9289" y1="-2.227" x2="0.9289" y2="-2.227" width="0.0508" layer="21" curve="45.2828"/>
+<wire x1="-3.937" y1="0.508" x2="-2.877" y2="0.508" width="0.1524" layer="21"/>
+<wire x1="2.227" y1="-0.9289" x2="2.227" y2="0.9289" width="0.0508" layer="21" curve="45.2828"/>
+<circle x="0" y="0" radius="2.921" width="0.1524" layer="21"/>
+<pad name="1" x="-1.27" y="-1.27" drill="0.8128" shape="octagon"/>
+<pad name="2" x="1.27" y="-1.27" drill="0.8128" shape="octagon"/>
+<pad name="3" x="1.27" y="1.27" drill="0.8128" shape="octagon"/>
+<text x="3.175" y="0" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="3.175" y="-1.905" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-1.905" y="-1.27" size="1.27" layer="51" ratio="10">1</text>
+<text x="0.635" y="-1.27" size="1.27" layer="51" ratio="10">2</text>
+<text x="0" y="0.635" size="1.27" layer="51" ratio="10">3</text>
+</package>
 </packages>
 <symbols>
 <symbol name="QUADOPAMP">
@@ -19052,11 +19073,30 @@ Source: http://eshop.phoenixcontact.com .. 1751264.pdf</description>
 <device name="" package="TO92">
 <connects>
 <connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
-<connect gate="G$1" pin="P$3" pad="3"/>
+<connect gate="G$1" pin="P$2" pad="3"/>
+<connect gate="G$1" pin="P$3" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2N2907*" prefix="Q">
+<description>&lt;b&gt;PNP Transistor&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="PNP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO18">
+<connects>
+<connect gate="G$1" pin="B" pad="2"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="E" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+<technology name="A"/>
 </technologies>
 </device>
 </devices>

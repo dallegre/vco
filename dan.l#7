@@ -19072,9 +19072,9 @@ Source: http://eshop.phoenixcontact.com .. 1751264.pdf</description>
 <devices>
 <device name="" package="TO92">
 <connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
-<connect gate="G$1" pin="P$3" pad="3"/>
+<connect gate="G$1" pin="P$1" pad="2"/>
+<connect gate="G$1" pin="P$2" pad="3"/>
+<connect gate="G$1" pin="P$3" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>

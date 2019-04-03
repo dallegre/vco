@@ -19072,9 +19072,9 @@ Source: http://eshop.phoenixcontact.com .. 1751264.pdf</description>
 <devices>
 <device name="" package="TO92">
 <connects>
-<connect gate="G$1" pin="P$1" pad="2"/>
+<connect gate="G$1" pin="P$1" pad="1"/>
 <connect gate="G$1" pin="P$2" pad="3"/>
-<connect gate="G$1" pin="P$3" pad="1"/>
+<connect gate="G$1" pin="P$3" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -19097,6 +19097,23 @@ Source: http://eshop.phoenixcontact.com .. 1751264.pdf</description>
 <technologies>
 <technology name=""/>
 <technology name="A"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PEDALPOT">
+<gates>
+<gate name="G$1" symbol="POT_US-" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="3RP/1610N">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="E" pad="2"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
